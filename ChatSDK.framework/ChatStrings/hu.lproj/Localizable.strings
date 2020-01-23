@@ -1,0 +1,5 @@
+"ios.conversation.ui.end_chat.button_label" = "Csevegés befejezése";
+"ios.conversation.ui.member.join" = "%@ csatlakozott a csevegéshez";
+"ios.conversation.ui.member.leave" = "%@ elhagyta a csevegést";
+"ios.conversation.ui.offline.no_agents_online" = "Sajnos jelenleg senki sincs online. Nézzen vissza később.";
+"ios.conversation.ui.queue.position" = "A várakozási sorban elfoglalt hely: %lu";

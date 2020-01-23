@@ -1,0 +1,5 @@
+"ios.conversation.ui.end_chat.button_label" = "結束交談";
+"ios.conversation.ui.member.join" = "%@ 已加入交談";
+"ios.conversation.ui.member.leave" = "%@ 已離開交談";
+"ios.conversation.ui.offline.no_agents_online" = "很遺憾目前無人在線上。稍後回來查閱。";
+"ios.conversation.ui.queue.position" = "佇列位置：%lu";

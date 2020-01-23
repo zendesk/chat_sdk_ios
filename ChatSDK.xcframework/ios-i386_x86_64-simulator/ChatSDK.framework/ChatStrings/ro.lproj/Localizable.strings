@@ -1,0 +1,5 @@
+"ios.conversation.ui.end_chat.button_label" = "Încheiere chat";
+"ios.conversation.ui.member.join" = "%@ s-a alăturat conversației pe chat";
+"ios.conversation.ui.member.leave" = "%@ a părăsit conversația pe chat";
+"ios.conversation.ui.offline.no_agents_online" = "Ne pare rău, nimeni nu este online în acest moment. Reveniți mai târziu.";
+"ios.conversation.ui.queue.position" = "Poziție în coadă: %lu";

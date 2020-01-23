@@ -1,0 +1,5 @@
+"ios.conversation.ui.end_chat.button_label" = "Zakończ czat";
+"ios.conversation.ui.member.join" = "%@ dołącza do czatu";
+"ios.conversation.ui.member.leave" = "%@ opuszcza czat";
+"ios.conversation.ui.offline.no_agents_online" = "Niestety, w tej chwili nie ma żadnych osób online. Sprawdź za jakiś czas.";
+"ios.conversation.ui.queue.position" = "Miejsce w kolejce: %lu";

@@ -1,0 +1,5 @@
+"ios.conversation.ui.end_chat.button_label" = "สิ้นสุดการแชท";
+"ios.conversation.ui.member.join" = "%@ เข้าร่วมการแชทแล้ว";
+"ios.conversation.ui.member.leave" = "%@ ออกจากการแชทแล้ว";
+"ios.conversation.ui.offline.no_agents_online" = "ขออภัย ไม่มีผู้ที่ออนไลน์อยู่ในขณะนี้ โปรดตรวจสอบภายหลัง";
+"ios.conversation.ui.queue.position" = "ตำแหน่งของคิว: %lu";

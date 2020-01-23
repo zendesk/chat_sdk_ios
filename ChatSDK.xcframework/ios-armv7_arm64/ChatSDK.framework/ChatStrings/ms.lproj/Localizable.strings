@@ -1,0 +1,5 @@
+"ios.conversation.ui.end_chat.button_label" = "Tamatkan sembang";
+"ios.conversation.ui.member.join" = "%@ telah menyertai sembang";
+"ios.conversation.ui.member.leave" = "%@ telah meninggalkan sembang";
+"ios.conversation.ui.offline.no_agents_online" = "Malangnya, tiada sesiapa dalam talian sekarang. Semak semula kemudian.";
+"ios.conversation.ui.queue.position" = "Kedudukan baris gilir: %lu";

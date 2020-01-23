@@ -1,0 +1,5 @@
+"ios.conversation.ui.end_chat.button_label" = "结束在线交谈";
+"ios.conversation.ui.member.join" = "%@ 已加入在线交谈";
+"ios.conversation.ui.member.leave" = "%@ 已离开在线交谈";
+"ios.conversation.ui.offline.no_agents_online" = "对不起，当前没有人在线上。稍后再来看看。";
+"ios.conversation.ui.queue.position" = "队列位置：%lu";

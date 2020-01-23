@@ -1,0 +1,5 @@
+"ios.conversation.ui.end_chat.button_label" = "סיים את הצ'אט";
+"ios.conversation.ui.member.join" = "המשתמש %@ הצטרף לצ'אט";
+"ios.conversation.ui.member.leave" = "המשתמש %@ עזב את הצ'אט";
+"ios.conversation.ui.offline.no_agents_online" = "לצערנו אף אחד לא מקוון עכשיו. חזור לכאן אחר כך.";
+"ios.conversation.ui.queue.position" = "המקום בתור: %lu";

@@ -1,0 +1,5 @@
+"ios.conversation.ui.end_chat.button_label" = "إنهاء الدردشة";
+"ios.conversation.ui.member.join" = "انضمَّ %@ إلى الدردشة";
+"ios.conversation.ui.member.leave" = "غادَر %@ الدردشة";
+"ios.conversation.ui.offline.no_agents_online" = "للأسف، لا يوجد أحد متصل حاليًا. الرجاء العودة لاحقًا.";
+"ios.conversation.ui.queue.position" = "الترتيب في قائمة الانتظار: %lu";

@@ -1,0 +1,5 @@
+"ios.conversation.ui.end_chat.button_label" = "Wakasan ang chat";
+"ios.conversation.ui.member.join" = "Sumali si %@ sa chat";
+"ios.conversation.ui.member.leave" = "Umalis si %@ ng chat";
+"ios.conversation.ui.offline.no_agents_online" = "Sa kasamaang-palad, walang naka-online sa sandaling ito. Silipin ulit mamaya.";
+"ios.conversation.ui.queue.position" = "Posisyon sa pila: %lu";

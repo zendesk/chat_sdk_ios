@@ -1,0 +1,5 @@
+"ios.conversation.ui.end_chat.button_label" = "채팅 종료";
+"ios.conversation.ui.member.join" = "%@님이 채팅에 입장했습니다.";
+"ios.conversation.ui.member.leave" = "%@님이 채팅에서 퇴장했습니다.";
+"ios.conversation.ui.offline.no_agents_online" = "현재 온라인 상태인 사람이 아무도 없습니다. 나중에 다시 확인하세요.";
+"ios.conversation.ui.queue.position" = "대기열 위치: %lu";

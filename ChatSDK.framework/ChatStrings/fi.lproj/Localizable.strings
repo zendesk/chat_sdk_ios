@@ -1,0 +1,5 @@
+"ios.conversation.ui.end_chat.button_label" = "Lopeta chatti";
+"ios.conversation.ui.member.join" = "%@ liittyi chat-keskusteluun";
+"ios.conversation.ui.member.leave" = "%@ poistui chat-keskustelusta";
+"ios.conversation.ui.offline.no_agents_online" = "Valitettavasti ketään ei ole tällä hetkellä Online-tilassa. Tarkista myöhemmin uudelleen.";
+"ios.conversation.ui.queue.position" = "Sijainti jonossa: %lu";

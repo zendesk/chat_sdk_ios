@@ -1,0 +1,5 @@
+"ios.conversation.ui.end_chat.button_label" = "Kết thúc cuộc trò chuyện";
+"ios.conversation.ui.member.join" = "%@ đã tham gia cuộc trò chuyện";
+"ios.conversation.ui.member.leave" = "%@ đã rời khỏi cuộc trò chuyện";
+"ios.conversation.ui.offline.no_agents_online" = "Rất tiếc, hiện không có ai trực tuyến. Hãy kiểm tra lại sau.";
+"ios.conversation.ui.queue.position" = "Vị trí trong hàng đợi: %lu";

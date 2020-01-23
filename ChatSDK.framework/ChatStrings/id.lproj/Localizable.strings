@@ -1,0 +1,5 @@
+"ios.conversation.ui.end_chat.button_label" = "Akhiri chat";
+"ios.conversation.ui.member.join" = "%@ bergabung dalam percakapan";
+"ios.conversation.ui.member.leave" = "%@ meninggalkan percakapan";
+"ios.conversation.ui.offline.no_agents_online" = "Mohon maaf, tidak ada yang online pada saat ini. Periksa lagi nanti.";
+"ios.conversation.ui.queue.position" = "Posisi antrean: %lu";

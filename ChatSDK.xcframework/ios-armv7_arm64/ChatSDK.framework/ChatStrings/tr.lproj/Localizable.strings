@@ -1,0 +1,5 @@
+"ios.conversation.ui.end_chat.button_label" = "Sohbeti sonlandır";
+"ios.conversation.ui.member.join" = "%@ sohbete katıldı";
+"ios.conversation.ui.member.leave" = "%@ sohbetten ayrıldı";
+"ios.conversation.ui.offline.no_agents_online" = "Üzgünüz, şu anda çevrimiçi kimse yok. Daha sonra yeniden kontrol edin.";
+"ios.conversation.ui.queue.position" = "Kuyruktaki yeri: %lu";

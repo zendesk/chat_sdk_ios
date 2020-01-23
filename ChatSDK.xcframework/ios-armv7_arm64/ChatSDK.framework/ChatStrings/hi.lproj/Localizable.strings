@@ -1,0 +1,5 @@
+"ios.conversation.ui.end_chat.button_label" = "चैट समाप्त करें";
+"ios.conversation.ui.member.join" = "%@ चैट में शामिल हो गया/गई है";
+"ios.conversation.ui.member.leave" = "%@ ने चैट छोड़ दी है";
+"ios.conversation.ui.offline.no_agents_online" = "दुर्भाग्य से, इस समय कोई भी ऑनलाइन नहीं है. बाद में देखें.";
+"ios.conversation.ui.queue.position" = "कतार स्थिति: %lu";

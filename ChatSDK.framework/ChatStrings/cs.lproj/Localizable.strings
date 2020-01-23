@@ -1,0 +1,5 @@
+"ios.conversation.ui.end_chat.button_label" = "Ukončit chat";
+"ios.conversation.ui.member.join" = "Uživatel %@ se připojil do chatu";
+"ios.conversation.ui.member.leave" = "Uživatel %@ opustil chat";
+"ios.conversation.ui.offline.no_agents_online" = "V tuto chvíli bohužel není nikdo online. Vraťte se sem později.";
+"ios.conversation.ui.queue.position" = "Pozice ve frontě: %lu";

@@ -1,0 +1,5 @@
+"ios.conversation.ui.end_chat.button_label" = "チャットを終了";
+"ios.conversation.ui.member.join" = "%@さんがチャットに参加しました";
+"ios.conversation.ui.member.leave" = "%@さんがチャットから退席しました";
+"ios.conversation.ui.offline.no_agents_online" = "あいにく現在オンライン中のエージェントがいません。後で確認してください。";
+"ios.conversation.ui.queue.position" = "キュー内の順番: %lu";

@@ -1,0 +1,5 @@
+"ios.conversation.ui.end_chat.button_label" = "Chat beenden";
+"ios.conversation.ui.member.join" = "%@ ist dem Chat beigetreten";
+"ios.conversation.ui.member.leave" = "%@ hat den Chat verlassen";
+"ios.conversation.ui.offline.no_agents_online" = "Momentan ist leider niemand online. Bitte schauen Sie später erneut vorbei.";
+"ios.conversation.ui.queue.position" = "Warteschlangenposition: %lu";

@@ -1,0 +1,5 @@
+"ios.conversation.ui.end_chat.button_label" = "Край на чата";
+"ios.conversation.ui.member.join" = "%@ влезе в чата";
+"ios.conversation.ui.member.leave" = "%@ напусна чата";
+"ios.conversation.ui.offline.no_agents_online" = "За съжаление, в момента няма никого онлайн. Проверете пак по-късно.";
+"ios.conversation.ui.queue.position" = "Позиция в опашката: %lu";

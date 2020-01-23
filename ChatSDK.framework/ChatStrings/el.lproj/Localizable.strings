@@ -1,0 +1,5 @@
+"ios.conversation.ui.end_chat.button_label" = "Τερματισμός συνομιλίας";
+"ios.conversation.ui.member.join" = "Ο χρήστης %@ συμμετέχει στη συνομιλία";
+"ios.conversation.ui.member.leave" = "Ο χρήστης %@ αποχώρησε από τη συνομιλία";
+"ios.conversation.ui.offline.no_agents_online" = "Δυστυχώς, κανένας εκπρόσωπος δεν είναι online αυτήν τη στιγμή. Δοκιμάστε ξανά αργότερα.";
+"ios.conversation.ui.queue.position" = "Θέση στην ουρά αναμονής: %lu";

@@ -1,0 +1,5 @@
+"ios.conversation.ui.end_chat.button_label" = "Avsluta chatten";
+"ios.conversation.ui.member.join" = "%@ kom in i chatten";
+"ios.conversation.ui.member.leave" = "%@ lämnade chatten";
+"ios.conversation.ui.offline.no_agents_online" = "Ingen är tyvärr online just nu. Försök igen senare.";
+"ios.conversation.ui.queue.position" = "Plats i kö: %lu";
