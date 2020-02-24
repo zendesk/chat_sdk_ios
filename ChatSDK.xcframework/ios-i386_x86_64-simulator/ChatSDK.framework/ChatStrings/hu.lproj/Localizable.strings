@@ -1,3 +1,11 @@
+"ios.conversation.ui.chat.rating.acknowledgement.message" = "Köszönjük a visszajelzését. Most visszatérhet a csevegéshez.";
+"ios.conversation.ui.chat.rating.button_label.bad" = "Rossz 👎";
+"ios.conversation.ui.chat.rating.button_label.good" = "Jó 👍";
+"ios.conversation.ui.chat.rating.comment.action.button_label" = "Megjegyzés hozzáadása";
+"ios.conversation.ui.chat.rating.comment.composer.hint" = "Írjon megjegyzést...";
+"ios.conversation.ui.chat.rating.comment.prompt.message" = "Nagyra értékeljük visszajelzését. Ha szeretne, egy részletesebb megjegyzést is hozzáfűzhet.";
+"ios.conversation.ui.chat.rating.message" = "Üdv! Szeretném megkérdezni, hogyan zajlott a csevegés a következővel: %@?";
+"ios.conversation.ui.chat.rating.request.message" = "Üdv! Szeretném megkérdezni, hogyan zajlott a csevegés a következővel: %@?";
 "ios.conversation.ui.end_chat.button_label" = "Csevegés befejezése";
 "ios.conversation.ui.member.join" = "%@ csatlakozott a csevegéshez";
 "ios.conversation.ui.member.leave" = "%@ elhagyta a csevegést";

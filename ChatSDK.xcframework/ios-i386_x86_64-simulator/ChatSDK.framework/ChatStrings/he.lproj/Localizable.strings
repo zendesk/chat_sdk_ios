@@ -1,3 +1,11 @@
+"ios.conversation.ui.chat.rating.acknowledgement.message" = "תודה על המשוב. עכשיו אתה יכול לחזור לצ'אט.";
+"ios.conversation.ui.chat.rating.button_label.bad" = "רע 👎";
+"ios.conversation.ui.chat.rating.button_label.good" = "טוב 👍";
+"ios.conversation.ui.chat.rating.comment.action.button_label" = "הוסף הערה";
+"ios.conversation.ui.chat.rating.comment.composer.hint" = "הקלד הערה...";
+"ios.conversation.ui.chat.rating.comment.prompt.message" = "המשוב שלך חשוב לנו. אם תרצה, תוכל גם להוסיף הערה עם יותר פרטים.";
+"ios.conversation.ui.chat.rating.message" = "הי, רק רצינו לבדוק איך הולך הצ'אט עם %@.";
+"ios.conversation.ui.chat.rating.request.message" = "הי, רק רצינו לבדוק איך הולך הצ'אט עם %@.";
 "ios.conversation.ui.end_chat.button_label" = "סיים את הצ'אט";
 "ios.conversation.ui.member.join" = "המשתמש %@ הצטרף לצ'אט";
 "ios.conversation.ui.member.leave" = "המשתמש %@ עזב את הצ'אט";

@@ -1,3 +1,11 @@
+"ios.conversation.ui.chat.rating.acknowledgement.message" = "Cảm ơn bạn đã gửi phản hồi. Bây giờ, bạn có thể quay lại cuộc trò chuyện của mình.";
+"ios.conversation.ui.chat.rating.button_label.bad" = "Không tốt 👎";
+"ios.conversation.ui.chat.rating.button_label.good" = "Tốt 👍";
+"ios.conversation.ui.chat.rating.comment.action.button_label" = "Thêm bình luận";
+"ios.conversation.ui.chat.rating.comment.composer.hint" = "Nhập bình luận...";
+"ios.conversation.ui.chat.rating.comment.prompt.message" = "Chúng tôi rất coi trọng phản hồi của bạn. Nếu thích, bạn cũng có thể thêm bình luận để cung cấp thêm chi tiết.";
+"ios.conversation.ui.chat.rating.message" = "Xin chào, chúng tôi muốn biết cuộc trò chuyện của bạn với %@ đã diễn ra như thế nào?";
+"ios.conversation.ui.chat.rating.request.message" = "Xin chào, chúng tôi muốn biết cuộc trò chuyện của bạn với %@ đã diễn ra như thế nào?";
 "ios.conversation.ui.end_chat.button_label" = "Kết thúc cuộc trò chuyện";
 "ios.conversation.ui.member.join" = "%@ đã tham gia cuộc trò chuyện";
 "ios.conversation.ui.member.leave" = "%@ đã rời khỏi cuộc trò chuyện";

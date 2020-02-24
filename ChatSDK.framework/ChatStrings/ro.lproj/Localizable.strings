@@ -1,3 +1,11 @@
+"ios.conversation.ui.chat.rating.acknowledgement.message" = "Vă mulțumim pentru feedback. Acum puteți să reveniți la chat-ul dumneavoastră.";
+"ios.conversation.ui.chat.rating.button_label.bad" = "Slab 👎";
+"ios.conversation.ui.chat.rating.button_label.good" = "Bun 👍";
+"ios.conversation.ui.chat.rating.comment.action.button_label" = "Adăugați un comentariu";
+"ios.conversation.ui.chat.rating.comment.composer.hint" = "Tastați un comentariu…";
+"ios.conversation.ui.chat.rating.comment.prompt.message" = "Apreciem feedbackul dumneavoastră. Dacă doriți, puteți adăuga un comentariu mai detaliat.";
+"ios.conversation.ui.chat.rating.message" = "Bună ziua, doar voiam să vedem cum a mers până acum chat-ul dumneavoastră cu %@?";
+"ios.conversation.ui.chat.rating.request.message" = "Bună ziua, doar voiam să vedem cum a mers până acum chat-ul dumneavoastră cu %@?";
 "ios.conversation.ui.end_chat.button_label" = "Încheiere chat";
 "ios.conversation.ui.member.join" = "%@ s-a alăturat conversației pe chat";
 "ios.conversation.ui.member.leave" = "%@ a părăsit conversația pe chat";

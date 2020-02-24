@@ -1,3 +1,11 @@
+"ios.conversation.ui.chat.rating.acknowledgement.message" = "感謝您提供反饋。您現可回到交談。";
+"ios.conversation.ui.chat.rating.button_label.bad" = "不好 👎";
+"ios.conversation.ui.chat.rating.button_label.good" = "好 👍";
+"ios.conversation.ui.chat.rating.comment.action.button_label" = "新增評論";
+"ios.conversation.ui.chat.rating.comment.composer.hint" = "輸入類型……";
+"ios.conversation.ui.chat.rating.comment.prompt.message" = "我們重視您的反饋。您亦可新增包含更多詳情的評論。";
+"ios.conversation.ui.chat.rating.message" = "嗨您好，我們希望瞭解您與 %@ 交談的進展情況。";
+"ios.conversation.ui.chat.rating.request.message" = "嗨您好，我們希望瞭解您與 %@ 交談的進展情況。";
 "ios.conversation.ui.end_chat.button_label" = "結束交談";
 "ios.conversation.ui.member.join" = "%@ 已加入交談";
 "ios.conversation.ui.member.leave" = "%@ 已離開交談";

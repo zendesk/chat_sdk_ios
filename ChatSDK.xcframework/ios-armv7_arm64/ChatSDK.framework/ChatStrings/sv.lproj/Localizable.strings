@@ -1,3 +1,11 @@
+"ios.conversation.ui.chat.rating.acknowledgement.message" = "Tack för din feedback. Nu kan du återvända till din chatt.";
+"ios.conversation.ui.chat.rating.button_label.bad" = "Dålig ";
+"ios.conversation.ui.chat.rating.button_label.good" = "Bra ";
+"ios.conversation.ui.chat.rating.comment.action.button_label" = "Lägg till en kommentar";
+"ios.conversation.ui.chat.rating.comment.composer.hint" = "Skriv en kommentar...";
+"ios.conversation.ui.chat.rating.comment.prompt.message" = "Vi uppskattar din feedback. Om du vill kan du också lägga till en kommentar med fler detaljer.";
+"ios.conversation.ui.chat.rating.message" = "Hej, vi vill bara fråga hur din chatt med %@ har varit.";
+"ios.conversation.ui.chat.rating.request.message" = "Hej, vi vill bara fråga hur din chatt med %@ har varit.";
 "ios.conversation.ui.end_chat.button_label" = "Avsluta chatten";
 "ios.conversation.ui.member.join" = "%@ kom in i chatten";
 "ios.conversation.ui.member.leave" = "%@ lämnade chatten";

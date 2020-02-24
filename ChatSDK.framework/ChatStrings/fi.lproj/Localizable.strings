@@ -1,3 +1,11 @@
+"ios.conversation.ui.chat.rating.acknowledgement.message" = "Kiitos palautteestasi. Voit nyt palata chat-keskusteluusi.";
+"ios.conversation.ui.chat.rating.button_label.bad" = "Huono 👎";
+"ios.conversation.ui.chat.rating.button_label.good" = "Hyvä 👍";
+"ios.conversation.ui.chat.rating.comment.action.button_label" = "Lisää kommentti";
+"ios.conversation.ui.chat.rating.comment.composer.hint" = "Kirjoita kommentti...";
+"ios.conversation.ui.chat.rating.comment.prompt.message" = "Arvostamme palautettasi. Jos haluat, voit myös lisätä yksityiskohtaisemman kommentin.";
+"ios.conversation.ui.chat.rating.message" = "Hei, tulin tässä mukaan tarkistamaan, kuinka chattisi henkilön %@ kanssa on sujunut?";
+"ios.conversation.ui.chat.rating.request.message" = "Hei, tulin tässä mukaan tarkistamaan, kuinka chattisi henkilön %@ kanssa on sujunut?";
 "ios.conversation.ui.end_chat.button_label" = "Lopeta chatti";
 "ios.conversation.ui.member.join" = "%@ liittyi chat-keskusteluun";
 "ios.conversation.ui.member.leave" = "%@ poistui chat-keskustelusta";

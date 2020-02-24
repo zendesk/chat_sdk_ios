@@ -1,3 +1,11 @@
+"ios.conversation.ui.chat.rating.acknowledgement.message" = "感谢您的反馈。现在您可以返回在线交谈了。";
+"ios.conversation.ui.chat.rating.button_label.bad" = "不好 👎";
+"ios.conversation.ui.chat.rating.button_label.good" = "好 👍";
+"ios.conversation.ui.chat.rating.comment.action.button_label" = "添加评论";
+"ios.conversation.ui.chat.rating.comment.composer.hint" = "输入评论……";
+"ios.conversation.ui.chat.rating.comment.prompt.message" = "我们很重视您的反馈。如果需要的话，您还可以添加一条评论，提供更多详情。";
+"ios.conversation.ui.chat.rating.message" = "嗨，我们想了解一下您与 %@ 的在线交谈怎么样？";
+"ios.conversation.ui.chat.rating.request.message" = "嗨，我们想了解一下您与 %@ 的在线交谈怎么样？";
 "ios.conversation.ui.end_chat.button_label" = "结束在线交谈";
 "ios.conversation.ui.member.join" = "%@ 已加入在线交谈";
 "ios.conversation.ui.member.leave" = "%@ 已离开在线交谈";

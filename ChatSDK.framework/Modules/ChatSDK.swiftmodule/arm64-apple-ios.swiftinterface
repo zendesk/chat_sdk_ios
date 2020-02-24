@@ -8,14 +8,21 @@ import MessagingAPI
 import SDKConfigurations
 import Swift
 import UIKit
+@objc(ZDKChatConfiguration) final public class ChatConfiguration : ObjectiveC.NSObject, SDKConfigurations.Configuration {
+  @objc final public var isAgentAvailabilityEnabled: Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension ChatConfiguration {
+  @objc override final public func isEqual(_ object: Any?) -> Swift.Bool
+}
 @objc(ZDKChatEngine) final public class ChatEngine : ObjectiveC.NSObject, MessagingAPI.Engine, ChatProvidersSDK.Loggable {
   @objc final public let id: Swift.String
   final public let transferOptionDescription: MessagingAPI.TransferOptionDescription
-  final public let configs: SDKConfigurations.Configurations
-  @objc final public var configurations: [SDKConfigurations.Configuration] {
-    @objc get
-  }
   final public var onUpdate: ([Foundation.UUID : (MessagingAPI.Update) -> Swift.Void])
+  @objc final public var configuration: ChatSDK.ChatConfiguration? {
+    get
+    }
   @objc deinit
   @objc final public func isConversationOngoing() -> Swift.Bool
   @objc public static func engine() throws -> ChatSDK.ChatEngine

@@ -1,3 +1,11 @@
+"ios.conversation.ui.chat.rating.acknowledgement.message" = "Geri bildirim için teşekkür ederiz. Şimdi sohbetinize dönebilirsiniz.";
+"ios.conversation.ui.chat.rating.button_label.bad" = "Kötü 👎";
+"ios.conversation.ui.chat.rating.button_label.good" = "İyi 👍";
+"ios.conversation.ui.chat.rating.comment.action.button_label" = "Bir yorum ekleyin";
+"ios.conversation.ui.chat.rating.comment.composer.hint" = "Yorum yazın...";
+"ios.conversation.ui.chat.rating.comment.prompt.message" = "Geri bildiriminize değer veriyoruz. İsterseniz daha fazla ayrıntı içeren bir yorum da ekleyebilirsiniz.";
+"ios.conversation.ui.chat.rating.message" = "Selam, %@ ile sohbetiniz nasıl gidiyor diye bakmak istedim.";
+"ios.conversation.ui.chat.rating.request.message" = "Selam, %@ ile sohbetiniz nasıl gidiyor diye bakmak istedim.";
 "ios.conversation.ui.end_chat.button_label" = "Sohbeti sonlandır";
 "ios.conversation.ui.member.join" = "%@ sohbete katıldı";
 "ios.conversation.ui.member.leave" = "%@ sohbetten ayrıldı";

@@ -1,3 +1,11 @@
+"ios.conversation.ui.chat.rating.acknowledgement.message" = "Dziękujemy za informacje zwrotne. Możesz wrócić do czatu.";
+"ios.conversation.ui.chat.rating.button_label.bad" = "Źle 👎";
+"ios.conversation.ui.chat.rating.button_label.good" = "Dobrze 👍";
+"ios.conversation.ui.chat.rating.comment.action.button_label" = "Dodaj komentarz";
+"ios.conversation.ui.chat.rating.comment.composer.hint" = "Napisz komentarz...";
+"ios.conversation.ui.chat.rating.comment.prompt.message" = "Twoja opinia jest dla nas ważna. Jeśli chcesz, możesz dodać komentarz z dodatkowymi informacjami.";
+"ios.conversation.ui.chat.rating.message" = "Dzień dobry! Chcielibyśmy się dowiedzieć, jak oceniasz czat z agentem: %@?";
+"ios.conversation.ui.chat.rating.request.message" = "Dzień dobry! Chcielibyśmy się dowiedzieć, jak oceniasz czat z agentem: %@?";
 "ios.conversation.ui.end_chat.button_label" = "Zakończ czat";
 "ios.conversation.ui.member.join" = "%@ dołącza do czatu";
 "ios.conversation.ui.member.leave" = "%@ opuszcza czat";

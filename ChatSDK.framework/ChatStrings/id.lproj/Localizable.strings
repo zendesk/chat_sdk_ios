@@ -1,3 +1,11 @@
+"ios.conversation.ui.chat.rating.acknowledgement.message" = "Terima kasih atas umpan balik tersebut. Anda kini dapat kembali ke obrolan Anda.";
+"ios.conversation.ui.chat.rating.button_label.bad" = "Buruk 👎";
+"ios.conversation.ui.chat.rating.button_label.good" = "Bagus 👍";
+"ios.conversation.ui.chat.rating.comment.action.button_label" = "Tambah komentar";
+"ios.conversation.ui.chat.rating.comment.composer.hint" = "Ketikkan komentar...";
+"ios.conversation.ui.chat.rating.comment.prompt.message" = "Kami menghargai umpan balik Anda. Jika Anda inginkan, Anda juga dapat menambah komentar dengan perincian lebih lanjut.";
+"ios.conversation.ui.chat.rating.message" = "Hai, hanya ingin memeriksa bagaimana kemajuan percakapan Anda dengan %@?";
+"ios.conversation.ui.chat.rating.request.message" = "Hai, hanya ingin memeriksa bagaimana kemajuan percakapan Anda dengan %@?";
 "ios.conversation.ui.end_chat.button_label" = "Akhiri chat";
 "ios.conversation.ui.member.join" = "%@ bergabung dalam percakapan";
 "ios.conversation.ui.member.leave" = "%@ meninggalkan percakapan";

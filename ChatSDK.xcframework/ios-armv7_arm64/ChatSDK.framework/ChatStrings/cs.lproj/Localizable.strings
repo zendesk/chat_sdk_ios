@@ -1,3 +1,11 @@
+"ios.conversation.ui.chat.rating.acknowledgement.message" = "Děkujeme za vaši zpětnou vazbu. Nyní se můžete vrátit ke svému chatu.";
+"ios.conversation.ui.chat.rating.button_label.bad" = "Špatné 👎";
+"ios.conversation.ui.chat.rating.button_label.good" = "Dobré 👍";
+"ios.conversation.ui.chat.rating.comment.action.button_label" = "Přidat komentář";
+"ios.conversation.ui.chat.rating.comment.composer.hint" = "Napsat komentář...";
+"ios.conversation.ui.chat.rating.comment.prompt.message" = "Vážíme si vašeho názoru. Pokud chcete, můžete také přidat podrobnější komentář.";
+"ios.conversation.ui.chat.rating.message" = "Ahoj, jen bychom rádi věděli, jak zatím váš chat s agentem %@ probíhá.";
+"ios.conversation.ui.chat.rating.request.message" = "Ahoj, jen bychom rádi věděli, jak zatím váš chat s agentem %@ probíhá.";
 "ios.conversation.ui.end_chat.button_label" = "Ukončit chat";
 "ios.conversation.ui.member.join" = "Uživatel %@ se připojil do chatu";
 "ios.conversation.ui.member.leave" = "Uživatel %@ opustil chat";

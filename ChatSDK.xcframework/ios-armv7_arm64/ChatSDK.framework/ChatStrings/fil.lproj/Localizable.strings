@@ -1,3 +1,11 @@
+"ios.conversation.ui.chat.rating.acknowledgement.message" = "Salamat sa feedback. Makababalik ka na ngayon sa chat mo.";
+"ios.conversation.ui.chat.rating.button_label.bad" = "Hindi mabuti 👎";
+"ios.conversation.ui.chat.rating.button_label.good" = "Mabuti 👍";
+"ios.conversation.ui.chat.rating.comment.action.button_label" = "Magdagdag ng komento";
+"ios.conversation.ui.chat.rating.comment.composer.hint" = "Mag-type ng komento...";
+"ios.conversation.ui.chat.rating.comment.prompt.message" = "Mahalaga sa amin ang feedback mo. Kung gusto mo, puwede ka ring magdagdag ng komentong mas detalyado.";
+"ios.conversation.ui.chat.rating.message" = "Hi, kinakamusta ko lang ang pakikipag-chat mo kay %@?";
+"ios.conversation.ui.chat.rating.request.message" = "Hi, kinakamusta ko lang ang pakikipag-chat mo kay %@?";
 "ios.conversation.ui.end_chat.button_label" = "Wakasan ang chat";
 "ios.conversation.ui.member.join" = "Sumali si %@ sa chat";
 "ios.conversation.ui.member.leave" = "Umalis si %@ ng chat";

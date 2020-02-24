@@ -1,3 +1,11 @@
+"ios.conversation.ui.chat.rating.acknowledgement.message" = "Gracias por su comentarios. Ya puede regresar a la sesión de chat.";
+"ios.conversation.ui.chat.rating.button_label.bad" = "Malo 👎";
+"ios.conversation.ui.chat.rating.button_label.good" = "Bueno 👍";
+"ios.conversation.ui.chat.rating.comment.action.button_label" = "Agregar un comentario";
+"ios.conversation.ui.chat.rating.comment.composer.hint" = "Escriba un comentario...";
+"ios.conversation.ui.chat.rating.comment.prompt.message" = "Valoramos su opinión. Si desea, también puede agregar un comentario con más detalles.";
+"ios.conversation.ui.chat.rating.message" = "¡Hola! ¿Cómo le va con el chat con %@?";
+"ios.conversation.ui.chat.rating.request.message" = "¡Hola! ¿Cómo le va con el chat con %@?";
 "ios.conversation.ui.end_chat.button_label" = "Finalizar chat";
 "ios.conversation.ui.member.join" = "%@ se unió al chat";
 "ios.conversation.ui.member.leave" = "%@ abandonó el chat";

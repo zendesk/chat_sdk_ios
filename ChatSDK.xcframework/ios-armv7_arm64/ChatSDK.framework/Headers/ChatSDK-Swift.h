@@ -186,6 +186,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import ChatProvidersSDK;
 @import Foundation;
 @import ObjectiveC;
+@import SDKConfigurations;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -207,15 +208,28 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
-@protocol ZDKConfiguration;
+
+
+
+SWIFT_CLASS_NAMED("ChatConfiguration")
+@interface ZDKChatConfiguration : NSObject <ZDKConfiguration>
+/// If TRUE, Offline message will be shown to the user in case no agent is available
+@property (nonatomic) BOOL isAgentAvailabilityEnabled;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface ZDKChatConfiguration (SWIFT_EXTENSION(ChatSDK))
+- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
+@end
+
 
 /// <code>ChatEngine</code> is the access point for the UI of the Chat SDK. It is the ChatEngine.
 SWIFT_CLASS_NAMED("ChatEngine")
 @interface ZDKChatEngine : NSObject
 /// Product Identifier
 @property (nonatomic, readonly, copy) NSString * _Nonnull id;
-/// Obj-C representation of <code>configs</code>
-@property (nonatomic, readonly, copy) NSArray<id <ZDKConfiguration>> * _Nonnull configurations;
+@property (nonatomic, readonly, strong) ZDKChatConfiguration * _Nullable configuration;
 /// Allows the Messaging SDK to see if there’s a conversation on-going.
 - (BOOL)isConversationOngoing SWIFT_WARN_UNUSED_RESULT;
 /// Initialize the ChatEngine
@@ -226,6 +240,22 @@ SWIFT_CLASS_NAMED("ChatEngine")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -431,6 +461,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import ChatProvidersSDK;
 @import Foundation;
 @import ObjectiveC;
+@import SDKConfigurations;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -452,15 +483,28 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
-@protocol ZDKConfiguration;
+
+
+
+SWIFT_CLASS_NAMED("ChatConfiguration")
+@interface ZDKChatConfiguration : NSObject <ZDKConfiguration>
+/// If TRUE, Offline message will be shown to the user in case no agent is available
+@property (nonatomic) BOOL isAgentAvailabilityEnabled;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface ZDKChatConfiguration (SWIFT_EXTENSION(ChatSDK))
+- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
+@end
+
 
 /// <code>ChatEngine</code> is the access point for the UI of the Chat SDK. It is the ChatEngine.
 SWIFT_CLASS_NAMED("ChatEngine")
 @interface ZDKChatEngine : NSObject
 /// Product Identifier
 @property (nonatomic, readonly, copy) NSString * _Nonnull id;
-/// Obj-C representation of <code>configs</code>
-@property (nonatomic, readonly, copy) NSArray<id <ZDKConfiguration>> * _Nonnull configurations;
+@property (nonatomic, readonly, strong) ZDKChatConfiguration * _Nullable configuration;
 /// Allows the Messaging SDK to see if there’s a conversation on-going.
 - (BOOL)isConversationOngoing SWIFT_WARN_UNUSED_RESULT;
 /// Initialize the ChatEngine
@@ -471,6 +515,22 @@ SWIFT_CLASS_NAMED("ChatEngine")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

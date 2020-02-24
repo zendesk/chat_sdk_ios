@@ -1,3 +1,11 @@
+"ios.conversation.ui.chat.rating.acknowledgement.message" = "ご意見ありがとうございます。またチャット画面にお戻りいただけます。";
+"ios.conversation.ui.chat.rating.button_label.bad" = "不満👎";
+"ios.conversation.ui.chat.rating.button_label.good" = "満足👍";
+"ios.conversation.ui.chat.rating.comment.action.button_label" = "新規コメントを追加";
+"ios.conversation.ui.chat.rating.comment.composer.hint" = "コメントを入力...";
+"ios.conversation.ui.chat.rating.comment.prompt.message" = "貴重なご意見を歓迎いたします。よろしければ、コメントにて詳しくお知らせいただけないでしょうか。";
+"ios.conversation.ui.chat.rating.message" = "%@とのチャットを評価していただけませんか？";
+"ios.conversation.ui.chat.rating.request.message" = "%@とのチャットを評価していただけませんか？";
 "ios.conversation.ui.end_chat.button_label" = "チャットを終了";
 "ios.conversation.ui.member.join" = "%@さんがチャットに参加しました";
 "ios.conversation.ui.member.leave" = "%@さんがチャットから退席しました";

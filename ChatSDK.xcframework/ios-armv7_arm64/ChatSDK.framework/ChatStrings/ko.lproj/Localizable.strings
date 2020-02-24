@@ -1,3 +1,11 @@
+"ios.conversation.ui.chat.rating.acknowledgement.message" = "의견 주셔서 감사합니다. 이제 채팅으로 돌아갈 수 있습니다.";
+"ios.conversation.ui.chat.rating.button_label.bad" = "나쁨 👎";
+"ios.conversation.ui.chat.rating.button_label.good" = "좋음 👍";
+"ios.conversation.ui.chat.rating.comment.action.button_label" = "댓글 추가";
+"ios.conversation.ui.chat.rating.comment.composer.hint" = "댓글을 입력하세요...";
+"ios.conversation.ui.chat.rating.comment.prompt.message" = "소중한 의견을 주세요. 원하시면 댓글을 추가하여 더 자세히 설명하실 수도 있습니다.";
+"ios.conversation.ui.chat.rating.message" = "%@님과의 채팅이 어땠나요?";
+"ios.conversation.ui.chat.rating.request.message" = "%@님과의 채팅이 어땠나요?";
 "ios.conversation.ui.end_chat.button_label" = "채팅 종료";
 "ios.conversation.ui.member.join" = "%@님이 채팅에 입장했습니다.";
 "ios.conversation.ui.member.leave" = "%@님이 채팅에서 퇴장했습니다.";

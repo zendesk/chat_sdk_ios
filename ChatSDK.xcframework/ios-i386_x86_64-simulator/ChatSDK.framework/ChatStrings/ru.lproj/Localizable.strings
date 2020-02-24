@@ -1,3 +1,11 @@
+"ios.conversation.ui.chat.rating.acknowledgement.message" = "Благодарим вас за отзыв. Теперь вы можете вернуться в чат.";
+"ios.conversation.ui.chat.rating.button_label.bad" = "Плохо 👎";
+"ios.conversation.ui.chat.rating.button_label.good" = "Хорошо 👍";
+"ios.conversation.ui.chat.rating.comment.action.button_label" = "Добавить комментарий";
+"ios.conversation.ui.chat.rating.comment.composer.hint" = "Введите комментарий...";
+"ios.conversation.ui.chat.rating.comment.prompt.message" = "Мы высоко ценим ваши отзывы. Если хотите, можете оставить более подробный комментарий.";
+"ios.conversation.ui.chat.rating.message" = "Ну, как прошел чат с агентом %@?";
+"ios.conversation.ui.chat.rating.request.message" = "Ну, как прошел чат с агентом %@?";
 "ios.conversation.ui.end_chat.button_label" = "Завершить чат";
 "ios.conversation.ui.member.join" = "%@ в чате";
 "ios.conversation.ui.member.leave" = "%@ больше не в чате";

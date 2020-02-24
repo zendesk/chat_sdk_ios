@@ -1,3 +1,11 @@
+"ios.conversation.ui.chat.rating.acknowledgement.message" = "شكرًا لك على رأيك. يمكنك الآن العودة إلى الدردشة.";
+"ios.conversation.ui.chat.rating.button_label.bad" = "سيئ 👎";
+"ios.conversation.ui.chat.rating.button_label.good" = "جيد 👍";
+"ios.conversation.ui.chat.rating.comment.action.button_label" = "إضافة تعليق";
+"ios.conversation.ui.chat.rating.comment.composer.hint" = "اكتب تعليقًا...";
+"ios.conversation.ui.chat.rating.comment.prompt.message" = "رأيك يهمنا. إذا رغبت في ذلك، يمكنك أيضًا إضافة تعليق أكثر تفصيلًا.";
+"ios.conversation.ui.chat.rating.message" = "مرحبًا، هذه مجرد متابعة لنعرف كيف تسير دردشتك مع %@؟";
+"ios.conversation.ui.chat.rating.request.message" = "مرحبًا، هذه مجرد متابعة لنعرف كيف تسير دردشتك مع %@؟";
 "ios.conversation.ui.end_chat.button_label" = "إنهاء الدردشة";
 "ios.conversation.ui.member.join" = "انضمَّ %@ إلى الدردشة";
 "ios.conversation.ui.member.leave" = "غادَر %@ الدردشة";
