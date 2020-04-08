@@ -212,10 +212,17 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+@class ZDKChatFormConfiguration;
 
 SWIFT_CLASS_NAMED("ChatConfiguration")
 @interface ZDKChatConfiguration : NSObject <ZDKConfiguration>
-/// If TRUE, Offline message will be shown to the user in case no agent is available
+/// Configures the fields in the prechat form
+@property (nonatomic, strong) ZDKChatFormConfiguration * _Nonnull preChatFormConfiguration;
+/// If TRUE, the pre-chat form will be shown to the user. TRUE by default.
+@property (nonatomic) BOOL isPreChatFormEnabled;
+/// If TRUE, the offline form will be shown to the user. TRUE by default.
+@property (nonatomic) BOOL isOfflineFormEnabled;
+/// If TRUE, Offline message will be shown to the user in case no agent is available. TRUE by default.
 @property (nonatomic) BOOL isAgentAvailabilityEnabled;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -226,12 +233,29 @@ SWIFT_CLASS_NAMED("ChatConfiguration")
 @end
 
 
+@interface ZDKChatConfiguration (SWIFT_EXTENSION(ChatSDK))
+/// Set the <code>ChatMenuAction</code>s that will be available to the user.
+/// <h2>Example:</h2>
+/// \code
+/// NSArray *update = @[@(ZDKChatMenuActionEmailTranscript),
+///                     @(ZDKChatMenuActionEndChat)];
+///
+/// [_config setChatMenuActionsWithActions: update];
+///
+/// \endcode\param actions Array of <code>ChatMenuAction</code> that are casted to an array of integers.
+///
+- (void)setChatMenuActions:(NSArray<NSNumber *> * _Nonnull)actions;
+/// Retrieve the Integer values of the <code>ChatMenuAction</code>s applied to the config
+@property (nonatomic, readonly, copy) NSArray<NSNumber *> * _Nonnull menuActions;
+@end
+
+
 /// <code>ChatEngine</code> is the access point for the UI of the Chat SDK. It is the ChatEngine.
 SWIFT_CLASS_NAMED("ChatEngine")
 @interface ZDKChatEngine : NSObject
 /// Product Identifier
 @property (nonatomic, readonly, copy) NSString * _Nonnull id;
-@property (nonatomic, readonly, strong) ZDKChatConfiguration * _Nullable configuration;
+@property (nonatomic, readonly, strong) ZDKChatConfiguration * _Nonnull configuration;
 /// Allows the Messaging SDK to see if there’s a conversation on-going.
 - (BOOL)isConversationOngoing SWIFT_WARN_UNUSED_RESULT;
 /// Initialize the ChatEngine
@@ -259,6 +283,34 @@ SWIFT_CLASS_NAMED("ChatEngine")
 
 
 
+enum ZDKFormFieldStatus : NSInteger;
+
+SWIFT_CLASS_NAMED("ChatFormConfiguration")
+@interface ZDKChatFormConfiguration : NSObject
+/// Sets how a the department selection field is presented to the end-user. Field is <code>.optional</code> by default.
+@property (nonatomic) enum ZDKFormFieldStatus name;
+/// Sets how a the department selection field is presented to the end-user. Field is <code>.optional</code> by default.
+@property (nonatomic) enum ZDKFormFieldStatus email;
+/// Sets how a the department selection field is presented to the end-user. Field is <code>.optional</code> by default.
+@property (nonatomic) enum ZDKFormFieldStatus phoneNumber;
+/// Sets how a the department selection field is presented to the end-user. Field is <code>.optional</code> by default.
+@property (nonatomic) enum ZDKFormFieldStatus department;
+- (nonnull instancetype)initWithName:(enum ZDKFormFieldStatus)name email:(enum ZDKFormFieldStatus)email phoneNumber:(enum ZDKFormFieldStatus)phoneNumber department:(enum ZDKFormFieldStatus)department OBJC_DESIGNATED_INITIALIZER;
+- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+
+
+
+
+
+typedef SWIFT_ENUM_NAMED(NSInteger, ZDKChatMenuAction, "ChatMenuAction", open) {
+  ZDKChatMenuActionEndChat = 0,
+  ZDKChatMenuActionEmailTranscript = 1,
+};
 
 
 
@@ -268,6 +320,16 @@ SWIFT_CLASS_NAMED("ChatEngine")
 
 
 
+/// <code>FormFieldStatus</code> is used to set if a field in the pre-chat or offline- form is
+/// <code>required</code>, <code>optional</code> or <code>hidden</code>.
+typedef SWIFT_ENUM_NAMED(NSInteger, ZDKFormFieldStatus, "FormFieldStatus", open) {
+/// Field will be shown to end-user with no <code>skip</code> button.
+  ZDKFormFieldStatusRequired = 0,
+/// Field will be shown to end-user with a <code>skip</code> button.
+  ZDKFormFieldStatusOptional = 1,
+/// Field will not be shown to end-user.
+  ZDKFormFieldStatusHidden = 2,
+};
 
 
 
@@ -487,10 +549,17 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+@class ZDKChatFormConfiguration;
 
 SWIFT_CLASS_NAMED("ChatConfiguration")
 @interface ZDKChatConfiguration : NSObject <ZDKConfiguration>
-/// If TRUE, Offline message will be shown to the user in case no agent is available
+/// Configures the fields in the prechat form
+@property (nonatomic, strong) ZDKChatFormConfiguration * _Nonnull preChatFormConfiguration;
+/// If TRUE, the pre-chat form will be shown to the user. TRUE by default.
+@property (nonatomic) BOOL isPreChatFormEnabled;
+/// If TRUE, the offline form will be shown to the user. TRUE by default.
+@property (nonatomic) BOOL isOfflineFormEnabled;
+/// If TRUE, Offline message will be shown to the user in case no agent is available. TRUE by default.
 @property (nonatomic) BOOL isAgentAvailabilityEnabled;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -501,12 +570,29 @@ SWIFT_CLASS_NAMED("ChatConfiguration")
 @end
 
 
+@interface ZDKChatConfiguration (SWIFT_EXTENSION(ChatSDK))
+/// Set the <code>ChatMenuAction</code>s that will be available to the user.
+/// <h2>Example:</h2>
+/// \code
+/// NSArray *update = @[@(ZDKChatMenuActionEmailTranscript),
+///                     @(ZDKChatMenuActionEndChat)];
+///
+/// [_config setChatMenuActionsWithActions: update];
+///
+/// \endcode\param actions Array of <code>ChatMenuAction</code> that are casted to an array of integers.
+///
+- (void)setChatMenuActions:(NSArray<NSNumber *> * _Nonnull)actions;
+/// Retrieve the Integer values of the <code>ChatMenuAction</code>s applied to the config
+@property (nonatomic, readonly, copy) NSArray<NSNumber *> * _Nonnull menuActions;
+@end
+
+
 /// <code>ChatEngine</code> is the access point for the UI of the Chat SDK. It is the ChatEngine.
 SWIFT_CLASS_NAMED("ChatEngine")
 @interface ZDKChatEngine : NSObject
 /// Product Identifier
 @property (nonatomic, readonly, copy) NSString * _Nonnull id;
-@property (nonatomic, readonly, strong) ZDKChatConfiguration * _Nullable configuration;
+@property (nonatomic, readonly, strong) ZDKChatConfiguration * _Nonnull configuration;
 /// Allows the Messaging SDK to see if there’s a conversation on-going.
 - (BOOL)isConversationOngoing SWIFT_WARN_UNUSED_RESULT;
 /// Initialize the ChatEngine
@@ -534,6 +620,34 @@ SWIFT_CLASS_NAMED("ChatEngine")
 
 
 
+enum ZDKFormFieldStatus : NSInteger;
+
+SWIFT_CLASS_NAMED("ChatFormConfiguration")
+@interface ZDKChatFormConfiguration : NSObject
+/// Sets how a the department selection field is presented to the end-user. Field is <code>.optional</code> by default.
+@property (nonatomic) enum ZDKFormFieldStatus name;
+/// Sets how a the department selection field is presented to the end-user. Field is <code>.optional</code> by default.
+@property (nonatomic) enum ZDKFormFieldStatus email;
+/// Sets how a the department selection field is presented to the end-user. Field is <code>.optional</code> by default.
+@property (nonatomic) enum ZDKFormFieldStatus phoneNumber;
+/// Sets how a the department selection field is presented to the end-user. Field is <code>.optional</code> by default.
+@property (nonatomic) enum ZDKFormFieldStatus department;
+- (nonnull instancetype)initWithName:(enum ZDKFormFieldStatus)name email:(enum ZDKFormFieldStatus)email phoneNumber:(enum ZDKFormFieldStatus)phoneNumber department:(enum ZDKFormFieldStatus)department OBJC_DESIGNATED_INITIALIZER;
+- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+
+
+
+
+
+typedef SWIFT_ENUM_NAMED(NSInteger, ZDKChatMenuAction, "ChatMenuAction", open) {
+  ZDKChatMenuActionEndChat = 0,
+  ZDKChatMenuActionEmailTranscript = 1,
+};
 
 
 
@@ -543,6 +657,16 @@ SWIFT_CLASS_NAMED("ChatEngine")
 
 
 
+/// <code>FormFieldStatus</code> is used to set if a field in the pre-chat or offline- form is
+/// <code>required</code>, <code>optional</code> or <code>hidden</code>.
+typedef SWIFT_ENUM_NAMED(NSInteger, ZDKFormFieldStatus, "FormFieldStatus", open) {
+/// Field will be shown to end-user with no <code>skip</code> button.
+  ZDKFormFieldStatusRequired = 0,
+/// Field will be shown to end-user with a <code>skip</code> button.
+  ZDKFormFieldStatusOptional = 1,
+/// Field will not be shown to end-user.
+  ZDKFormFieldStatusHidden = 2,
+};
 
 
 
@@ -765,10 +889,17 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+@class ZDKChatFormConfiguration;
 
 SWIFT_CLASS_NAMED("ChatConfiguration")
 @interface ZDKChatConfiguration : NSObject <ZDKConfiguration>
-/// If TRUE, Offline message will be shown to the user in case no agent is available
+/// Configures the fields in the prechat form
+@property (nonatomic, strong) ZDKChatFormConfiguration * _Nonnull preChatFormConfiguration;
+/// If TRUE, the pre-chat form will be shown to the user. TRUE by default.
+@property (nonatomic) BOOL isPreChatFormEnabled;
+/// If TRUE, the offline form will be shown to the user. TRUE by default.
+@property (nonatomic) BOOL isOfflineFormEnabled;
+/// If TRUE, Offline message will be shown to the user in case no agent is available. TRUE by default.
 @property (nonatomic) BOOL isAgentAvailabilityEnabled;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -779,12 +910,29 @@ SWIFT_CLASS_NAMED("ChatConfiguration")
 @end
 
 
+@interface ZDKChatConfiguration (SWIFT_EXTENSION(ChatSDK))
+/// Set the <code>ChatMenuAction</code>s that will be available to the user.
+/// <h2>Example:</h2>
+/// \code
+/// NSArray *update = @[@(ZDKChatMenuActionEmailTranscript),
+///                     @(ZDKChatMenuActionEndChat)];
+///
+/// [_config setChatMenuActionsWithActions: update];
+///
+/// \endcode\param actions Array of <code>ChatMenuAction</code> that are casted to an array of integers.
+///
+- (void)setChatMenuActions:(NSArray<NSNumber *> * _Nonnull)actions;
+/// Retrieve the Integer values of the <code>ChatMenuAction</code>s applied to the config
+@property (nonatomic, readonly, copy) NSArray<NSNumber *> * _Nonnull menuActions;
+@end
+
+
 /// <code>ChatEngine</code> is the access point for the UI of the Chat SDK. It is the ChatEngine.
 SWIFT_CLASS_NAMED("ChatEngine")
 @interface ZDKChatEngine : NSObject
 /// Product Identifier
 @property (nonatomic, readonly, copy) NSString * _Nonnull id;
-@property (nonatomic, readonly, strong) ZDKChatConfiguration * _Nullable configuration;
+@property (nonatomic, readonly, strong) ZDKChatConfiguration * _Nonnull configuration;
 /// Allows the Messaging SDK to see if there’s a conversation on-going.
 - (BOOL)isConversationOngoing SWIFT_WARN_UNUSED_RESULT;
 /// Initialize the ChatEngine
@@ -812,6 +960,34 @@ SWIFT_CLASS_NAMED("ChatEngine")
 
 
 
+enum ZDKFormFieldStatus : NSInteger;
+
+SWIFT_CLASS_NAMED("ChatFormConfiguration")
+@interface ZDKChatFormConfiguration : NSObject
+/// Sets how a the department selection field is presented to the end-user. Field is <code>.optional</code> by default.
+@property (nonatomic) enum ZDKFormFieldStatus name;
+/// Sets how a the department selection field is presented to the end-user. Field is <code>.optional</code> by default.
+@property (nonatomic) enum ZDKFormFieldStatus email;
+/// Sets how a the department selection field is presented to the end-user. Field is <code>.optional</code> by default.
+@property (nonatomic) enum ZDKFormFieldStatus phoneNumber;
+/// Sets how a the department selection field is presented to the end-user. Field is <code>.optional</code> by default.
+@property (nonatomic) enum ZDKFormFieldStatus department;
+- (nonnull instancetype)initWithName:(enum ZDKFormFieldStatus)name email:(enum ZDKFormFieldStatus)email phoneNumber:(enum ZDKFormFieldStatus)phoneNumber department:(enum ZDKFormFieldStatus)department OBJC_DESIGNATED_INITIALIZER;
+- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+
+
+
+
+
+typedef SWIFT_ENUM_NAMED(NSInteger, ZDKChatMenuAction, "ChatMenuAction", open) {
+  ZDKChatMenuActionEndChat = 0,
+  ZDKChatMenuActionEmailTranscript = 1,
+};
 
 
 
@@ -821,6 +997,16 @@ SWIFT_CLASS_NAMED("ChatEngine")
 
 
 
+/// <code>FormFieldStatus</code> is used to set if a field in the pre-chat or offline- form is
+/// <code>required</code>, <code>optional</code> or <code>hidden</code>.
+typedef SWIFT_ENUM_NAMED(NSInteger, ZDKFormFieldStatus, "FormFieldStatus", open) {
+/// Field will be shown to end-user with no <code>skip</code> button.
+  ZDKFormFieldStatusRequired = 0,
+/// Field will be shown to end-user with a <code>skip</code> button.
+  ZDKFormFieldStatusOptional = 1,
+/// Field will not be shown to end-user.
+  ZDKFormFieldStatusHidden = 2,
+};
 
 
 
@@ -1040,10 +1226,17 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+@class ZDKChatFormConfiguration;
 
 SWIFT_CLASS_NAMED("ChatConfiguration")
 @interface ZDKChatConfiguration : NSObject <ZDKConfiguration>
-/// If TRUE, Offline message will be shown to the user in case no agent is available
+/// Configures the fields in the prechat form
+@property (nonatomic, strong) ZDKChatFormConfiguration * _Nonnull preChatFormConfiguration;
+/// If TRUE, the pre-chat form will be shown to the user. TRUE by default.
+@property (nonatomic) BOOL isPreChatFormEnabled;
+/// If TRUE, the offline form will be shown to the user. TRUE by default.
+@property (nonatomic) BOOL isOfflineFormEnabled;
+/// If TRUE, Offline message will be shown to the user in case no agent is available. TRUE by default.
 @property (nonatomic) BOOL isAgentAvailabilityEnabled;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -1054,12 +1247,29 @@ SWIFT_CLASS_NAMED("ChatConfiguration")
 @end
 
 
+@interface ZDKChatConfiguration (SWIFT_EXTENSION(ChatSDK))
+/// Set the <code>ChatMenuAction</code>s that will be available to the user.
+/// <h2>Example:</h2>
+/// \code
+/// NSArray *update = @[@(ZDKChatMenuActionEmailTranscript),
+///                     @(ZDKChatMenuActionEndChat)];
+///
+/// [_config setChatMenuActionsWithActions: update];
+///
+/// \endcode\param actions Array of <code>ChatMenuAction</code> that are casted to an array of integers.
+///
+- (void)setChatMenuActions:(NSArray<NSNumber *> * _Nonnull)actions;
+/// Retrieve the Integer values of the <code>ChatMenuAction</code>s applied to the config
+@property (nonatomic, readonly, copy) NSArray<NSNumber *> * _Nonnull menuActions;
+@end
+
+
 /// <code>ChatEngine</code> is the access point for the UI of the Chat SDK. It is the ChatEngine.
 SWIFT_CLASS_NAMED("ChatEngine")
 @interface ZDKChatEngine : NSObject
 /// Product Identifier
 @property (nonatomic, readonly, copy) NSString * _Nonnull id;
-@property (nonatomic, readonly, strong) ZDKChatConfiguration * _Nullable configuration;
+@property (nonatomic, readonly, strong) ZDKChatConfiguration * _Nonnull configuration;
 /// Allows the Messaging SDK to see if there’s a conversation on-going.
 - (BOOL)isConversationOngoing SWIFT_WARN_UNUSED_RESULT;
 /// Initialize the ChatEngine
@@ -1087,6 +1297,34 @@ SWIFT_CLASS_NAMED("ChatEngine")
 
 
 
+enum ZDKFormFieldStatus : NSInteger;
+
+SWIFT_CLASS_NAMED("ChatFormConfiguration")
+@interface ZDKChatFormConfiguration : NSObject
+/// Sets how a the department selection field is presented to the end-user. Field is <code>.optional</code> by default.
+@property (nonatomic) enum ZDKFormFieldStatus name;
+/// Sets how a the department selection field is presented to the end-user. Field is <code>.optional</code> by default.
+@property (nonatomic) enum ZDKFormFieldStatus email;
+/// Sets how a the department selection field is presented to the end-user. Field is <code>.optional</code> by default.
+@property (nonatomic) enum ZDKFormFieldStatus phoneNumber;
+/// Sets how a the department selection field is presented to the end-user. Field is <code>.optional</code> by default.
+@property (nonatomic) enum ZDKFormFieldStatus department;
+- (nonnull instancetype)initWithName:(enum ZDKFormFieldStatus)name email:(enum ZDKFormFieldStatus)email phoneNumber:(enum ZDKFormFieldStatus)phoneNumber department:(enum ZDKFormFieldStatus)department OBJC_DESIGNATED_INITIALIZER;
+- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+
+
+
+
+
+typedef SWIFT_ENUM_NAMED(NSInteger, ZDKChatMenuAction, "ChatMenuAction", open) {
+  ZDKChatMenuActionEndChat = 0,
+  ZDKChatMenuActionEmailTranscript = 1,
+};
 
 
 
@@ -1096,6 +1334,16 @@ SWIFT_CLASS_NAMED("ChatEngine")
 
 
 
+/// <code>FormFieldStatus</code> is used to set if a field in the pre-chat or offline- form is
+/// <code>required</code>, <code>optional</code> or <code>hidden</code>.
+typedef SWIFT_ENUM_NAMED(NSInteger, ZDKFormFieldStatus, "FormFieldStatus", open) {
+/// Field will be shown to end-user with no <code>skip</code> button.
+  ZDKFormFieldStatusRequired = 0,
+/// Field will be shown to end-user with a <code>skip</code> button.
+  ZDKFormFieldStatusOptional = 1,
+/// Field will not be shown to end-user.
+  ZDKFormFieldStatusHidden = 2,
+};
 
 
 

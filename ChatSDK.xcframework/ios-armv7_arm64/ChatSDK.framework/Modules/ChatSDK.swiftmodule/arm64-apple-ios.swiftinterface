@@ -9,29 +9,85 @@ import SDKConfigurations
 import Swift
 import UIKit
 @objc(ZDKChatConfiguration) final public class ChatConfiguration : ObjectiveC.NSObject, SDKConfigurations.Configuration {
-  @objc final public var isAgentAvailabilityEnabled: Swift.Bool
+  @objc final public var preChatFormConfiguration: ChatSDK.ChatFormConfiguration
+  @objc final public var isPreChatFormEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var isOfflineFormEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc final public var isAgentAvailabilityEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  final public var chatMenuActions: [ChatSDK.ChatMenuAction]
   @objc override dynamic public init()
   @objc deinit
 }
 extension ChatConfiguration {
   @objc override final public func isEqual(_ object: Any?) -> Swift.Bool
 }
+extension ChatConfiguration {
+  @available(swift, obsoleted: 1.0)
+  @objc final public func setChatMenuActions(_ actions: [Swift.Int])
+  @available(swift, obsoleted: 1.0)
+  @objc final public var menuActions: [Swift.Int] {
+    @objc get
+  }
+}
+@objc(ZDKChatFormConfiguration) final public class ChatFormConfiguration : ObjectiveC.NSObject {
+  @objc final public var name: ChatSDK.FormFieldStatus
+  @objc final public var email: ChatSDK.FormFieldStatus
+  @objc final public var phoneNumber: ChatSDK.FormFieldStatus
+  @objc final public var department: ChatSDK.FormFieldStatus
+  @objc public init(name: ChatSDK.FormFieldStatus = .optional, email: ChatSDK.FormFieldStatus = .optional, phoneNumber: ChatSDK.FormFieldStatus = .optional, department: ChatSDK.FormFieldStatus = .optional)
+  @objc override final public func isEqual(_ object: Any?) -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc(ZDKFormFieldStatus) public enum FormFieldStatus : Swift.Int, Swift.Equatable {
+  case required
+  case optional
+  case hidden
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 @objc(ZDKChatEngine) final public class ChatEngine : ObjectiveC.NSObject, MessagingAPI.Engine, ChatProvidersSDK.Loggable {
   @objc final public let id: Swift.String
   final public let transferOptionDescription: MessagingAPI.TransferOptionDescription
   final public var onUpdate: ([Foundation.UUID : (MessagingAPI.Update) -> Swift.Void])
-  @objc final public var configuration: ChatSDK.ChatConfiguration? {
+  @objc final public var configuration: ChatSDK.ChatConfiguration {
     get
     }
   @objc deinit
   @objc final public func isConversationOngoing() -> Swift.Bool
   @objc public static func engine() throws -> ChatSDK.ChatEngine
-  final public func start(messagingAPI: MessagingAPI.MessagingAPIProtocol)
-  final public func stop()
   final public func onEvent(_ event: MessagingAPI.Event)
   @objc override dynamic public init()
+}
+extension ChatEngine {
+  final public func start(messagingAPI: MessagingAPI.MessagingAPIProtocol)
+  final public func stop()
 }
 extension ChatEngine : MessagingAPI.Observable {
   final public func observeUpdates(_ completion: @escaping (MessagingAPI.Update) -> Swift.Void) -> MessagingAPI.ObservationToken
   public typealias Observable = MessagingAPI.Update
 }
+@objc(ZDKChatMenuAction) public enum ChatMenuAction : Swift.Int {
+  case endChat
+  case emailTranscript
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension ChatSDK.FormFieldStatus : Swift.Hashable {}
+extension ChatSDK.FormFieldStatus : Swift.RawRepresentable {}
+extension ChatSDK.ChatMenuAction : Swift.Hashable {}
+extension ChatSDK.ChatMenuAction : Swift.RawRepresentable {}
