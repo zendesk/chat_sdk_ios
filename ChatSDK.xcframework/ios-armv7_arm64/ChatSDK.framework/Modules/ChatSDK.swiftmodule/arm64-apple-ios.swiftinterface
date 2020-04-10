@@ -10,6 +10,10 @@ import Swift
 import UIKit
 @objc(ZDKChatConfiguration) final public class ChatConfiguration : ObjectiveC.NSObject, SDKConfigurations.Configuration {
   @objc final public var preChatFormConfiguration: ChatSDK.ChatFormConfiguration
+  @objc final public var isChatTranscriptPromptEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
   @objc final public var isPreChatFormEnabled: Swift.Bool {
     @objc get
     @objc set
@@ -46,6 +50,14 @@ extension ChatConfiguration {
   @objc override final public func isEqual(_ object: Any?) -> Swift.Bool
   @objc override dynamic public init()
   @objc deinit
+}
+extension Error {
+  public var legibleDescription: Swift.String {
+    get
+  }
+  public var legibleLocalizedDescription: Swift.String {
+    get
+  }
 }
 @objc(ZDKFormFieldStatus) public enum FormFieldStatus : Swift.Int, Swift.Equatable {
   case required

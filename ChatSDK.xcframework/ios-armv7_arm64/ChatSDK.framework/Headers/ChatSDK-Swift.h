@@ -216,6 +216,8 @@ SWIFT_CLASS_NAMED("ChatConfiguration")
 @interface ZDKChatConfiguration : NSObject <ZDKConfiguration>
 /// Configures the fields in the prechat form
 @property (nonatomic, strong) ZDKChatFormConfiguration * _Nonnull preChatFormConfiguration;
+/// If TRUE, users are asked if they want to request a chat transcript at the end of the chat. TRUE by default.
+@property (nonatomic) BOOL isChatTranscriptPromptEnabled;
 /// If TRUE, the pre-chat form will be shown to the user. TRUE by default.
 @property (nonatomic) BOOL isPreChatFormEnabled;
 /// If TRUE, the offline form will be shown to the user. TRUE by default.
@@ -553,6 +555,8 @@ SWIFT_CLASS_NAMED("ChatConfiguration")
 @interface ZDKChatConfiguration : NSObject <ZDKConfiguration>
 /// Configures the fields in the prechat form
 @property (nonatomic, strong) ZDKChatFormConfiguration * _Nonnull preChatFormConfiguration;
+/// If TRUE, users are asked if they want to request a chat transcript at the end of the chat. TRUE by default.
+@property (nonatomic) BOOL isChatTranscriptPromptEnabled;
 /// If TRUE, the pre-chat form will be shown to the user. TRUE by default.
 @property (nonatomic) BOOL isPreChatFormEnabled;
 /// If TRUE, the offline form will be shown to the user. TRUE by default.
