@@ -3,8 +3,7 @@
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "Мы получили ваше сообщение и свяжемся с вами в ближайшее время.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "Чтобы свободный агент мог с вами связаться, нам нужно больше информации.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "Чем мы можем вам помочь, когда снова будем на связи?";
-"ios.conversation.ui.chat.offline_form.message_prompt" = "Чтобы ответить вам, когда у нас освободятся агенты, нам нужна дополнительная информация.";
-"ios.conversation.ui.chat.offline_form.welcome_message" = "Здравствуйте! К сожалению сейчас в онлайне никого нет.";
+"ios.conversation.ui.chat.offline_form.welcome_message" = "Здравствуйте! К сожалению, сейчас в онлайне никого нет.";
 "ios.conversation.ui.chat.rating.acknowledgement.message" = "Благодарим вас за отзыв. Теперь вы можете вернуться в чат.";
 "ios.conversation.ui.chat.rating.add.comment.composer.hint" = "Введите комментарий...";
 "ios.conversation.ui.chat.rating.button_label.bad" = "Плохо 👎";

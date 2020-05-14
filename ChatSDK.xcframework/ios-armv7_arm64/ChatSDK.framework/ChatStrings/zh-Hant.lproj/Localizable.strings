@@ -3,7 +3,6 @@
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "我們已收到您的訊息，將儘快回覆您。";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "找到有空的人員時我們會聯絡您，因此我需要更多資訊。";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "您需要我們重新上線後為您提供什麼協助？";
-"ios.conversation.ui.chat.offline_form.message_prompt" = "找到有空的人員時我們會聯絡您，因此我需要更多資訊。";
 "ios.conversation.ui.chat.offline_form.welcome_message" = "嗨。很遺憾目前無人在線上。";
 "ios.conversation.ui.chat.rating.acknowledgement.message" = "感謝您提供反饋。您現可回到交談。";
 "ios.conversation.ui.chat.rating.add.comment.composer.hint" = "輸入您的評論……";

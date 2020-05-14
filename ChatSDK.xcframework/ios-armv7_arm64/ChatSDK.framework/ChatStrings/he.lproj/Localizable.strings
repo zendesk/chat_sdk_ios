@@ -3,7 +3,6 @@
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "קיבלנו את ההודעה שלך ונחזור אליך בהקדם האפשרי.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "כדי ליצור איתך קשר כשמישהו יהיה זמין, אני צריך עוד כמה פרטים.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "במה נוכל לעזור כשנחזור להיות מקוונים?";
-"ios.conversation.ui.chat.offline_form.message_prompt" = "כדי שנוכל ליצור איתך קשר כשמישהו יהיה זמין, אני צריך עוד כמה פרטים.";
 "ios.conversation.ui.chat.offline_form.welcome_message" = "הי. לצערי אף אחד לא מקוון עכשיו.";
 "ios.conversation.ui.chat.rating.acknowledgement.message" = "תודה על המשוב. עכשיו אתה יכול לחזור לצ'אט.";
 "ios.conversation.ui.chat.rating.add.comment.composer.hint" = "הקלד את ההערה...";

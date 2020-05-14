@@ -3,7 +3,6 @@
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "Nous avons bien reçu votre message et reviendrons vers vous dans les plus brefs délais.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "Pour pouvoir vous contacter quand un agent sera disponible, j’ai besoin de quelques informations.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "Que pourrons-nous faire pour vous quand un agent sera disponible en ligne ?";
-"ios.conversation.ui.chat.offline_form.message_prompt" = "Pour pouvoir vous contacter quand un agent sera disponible, j’ai besoin de quelques informations.";
 "ios.conversation.ui.chat.offline_form.welcome_message" = "Bonjour. Hélas, il n’y a personne en ligne actuellement.";
 "ios.conversation.ui.chat.rating.acknowledgement.message" = "Merci de vos commentaires. Vous pouvez retourner à votre chat.";
 "ios.conversation.ui.chat.rating.add.comment.composer.hint" = "Écrivez votre commentaire…";

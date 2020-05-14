@@ -3,7 +3,6 @@
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "Přijali jsme vaši zprávu a ozveme se vám co nejdříve.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "Abychom vás mohli kontaktovat, až bude někdo dostupný, potřebujeme trochu více informací.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "S čím vám můžeme pomoct, až budeme zase online?";
-"ios.conversation.ui.chat.offline_form.message_prompt" = "Abychom vás mohli kontaktovat, až bude někdo dostupný, potřebujeme trochu více informací.";
 "ios.conversation.ui.chat.offline_form.welcome_message" = "Ahoj! V tuto chvíli bohužel není nikdo online.";
 "ios.conversation.ui.chat.rating.acknowledgement.message" = "Děkujeme za vaši zpětnou vazbu. Nyní se můžete vrátit ke svému chatu.";
 "ios.conversation.ui.chat.rating.add.comment.composer.hint" = "Napište svůj komentář...";

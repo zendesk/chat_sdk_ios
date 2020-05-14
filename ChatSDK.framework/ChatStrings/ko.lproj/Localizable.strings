@@ -3,7 +3,6 @@
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "고객님의 메시지를 잘 받았고 가능한 빨리 연락드리도록 하겠습니다.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "고객님께 연락을 드리기 위해 몇 가지 정보가 더 필요합니다.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "다시 온라인 상태가 되었을 때 어떻게 도와드릴까요?";
-"ios.conversation.ui.chat.offline_form.message_prompt" = "고객님께 연락을 드리기 위해 몇 가지 정보가 더 필요합니다.";
 "ios.conversation.ui.chat.offline_form.welcome_message" = "안녕하세요. 현재 온라인 상태인 사람이 아무도 없습니다.";
 "ios.conversation.ui.chat.rating.acknowledgement.message" = "의견 주셔서 감사합니다. 이제 채팅으로 돌아갈 수 있습니다.";
 "ios.conversation.ui.chat.rating.add.comment.composer.hint" = "댓글을 입력하세요...";

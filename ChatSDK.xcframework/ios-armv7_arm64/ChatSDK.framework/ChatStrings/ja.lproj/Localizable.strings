@@ -3,7 +3,6 @@
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "メッセージを受け取りました。早急にご連絡を差し上げます。";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "担当者が戻り次第ご連絡を差し上げますので、お名前とお電話番号を教えてください。";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "オンラインになりましたらすぐに応対できますよう、お困りの件をお知らせいただけないでしょうか。";
-"ios.conversation.ui.chat.offline_form.message_prompt" = "担当者が戻り次第ご連絡を差し上げますので、お名前とお電話番号を教えてください。";
 "ios.conversation.ui.chat.offline_form.welcome_message" = "お問い合わせありがとうございます。現在オンライン中のエージェントがおりません。";
 "ios.conversation.ui.chat.rating.acknowledgement.message" = "ご意見ありがとうございます。またチャット画面にお戻りいただけます。";
 "ios.conversation.ui.chat.rating.add.comment.composer.hint" = "コメントを入力...";
@@ -29,8 +28,8 @@
 "ios.conversation.ui.member.join" = "%@さんがチャットに参加しました";
 "ios.conversation.ui.member.leave" = "%@さんがチャットから退席しました";
 "ios.conversation.ui.offline.no_agents_online" = "あいにく現在オンライン中のエージェントがいません。後で確認してください。";
-"ios.conversation.ui.pre_chat.form.add.email.composer.hint" = "メールアドレスを入力...";
-"ios.conversation.ui.pre_chat.form.add.name.composer.hint" = "名前を入力...";
+"ios.conversation.ui.pre_chat.form.add.email.composer.hint" = "メールアドレスを教えていただけますか？";
+"ios.conversation.ui.pre_chat.form.add.name.composer.hint" = "お名前を教えていただけますか？";
 "ios.conversation.ui.pre_chat.form.add.phone.number.composer.hint" = "電話番号を入力...";
 "ios.conversation.ui.pre_chat.form.department.choice.message" = "どの部門におつなぎしたらよろしいでしょうか？";
 "ios.conversation.ui.pre_chat.form.email.request.message" = "メールアドレスを教えていただけますか？";

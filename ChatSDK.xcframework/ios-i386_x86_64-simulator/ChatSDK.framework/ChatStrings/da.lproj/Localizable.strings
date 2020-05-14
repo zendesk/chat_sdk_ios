@@ -3,7 +3,6 @@
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "Vi har modtaget din besked, og vi vender tilbage hurtigst muligt.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "Jeg skal bruge flere oplysninger til at kontakte dig, når en agent er ledig.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "Hvad kan vi hjælpe dig med, når vi er online igen?";
-"ios.conversation.ui.chat.offline_form.message_prompt" = "Jeg har brug for flere oplysninger, så du kan blive kontaktet, så snart en agent er ledig.";
 "ios.conversation.ui.chat.offline_form.welcome_message" = "Hej. Der er desværre ingen online i øjeblikket.";
 "ios.conversation.ui.chat.rating.acknowledgement.message" = "Tak for feedbacken. Nu kan du vende tilbage til din chat.";
 "ios.conversation.ui.chat.rating.add.comment.composer.hint" = "Indtast din kommentar ...";

@@ -3,7 +3,6 @@
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "Kami telah menerima pesan Anda dan akan menghubungi Anda kembali secepatnya.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "Agar dapat menghubungi Anda ketika tersedia seseorang untuk membantu Anda, saya perlu beberapa informasi tambahan.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "Apa yang dapat kami bantu saat kami kembali online?";
-"ios.conversation.ui.chat.offline_form.message_prompt" = "Agar dapat menghubungi Anda ketika ada seseorang untuk membantu Anda, saya perlu beberapa informasi tambahan.";
 "ios.conversation.ui.chat.offline_form.welcome_message" = "Hai. Mohon maaf, tidak ada yang online pada saat ini.";
 "ios.conversation.ui.chat.rating.acknowledgement.message" = "Terima kasih atas umpan balik tersebut. Anda kini dapat kembali ke obrolan Anda.";
 "ios.conversation.ui.chat.rating.add.comment.composer.hint" = "Ketik komentar Anda...";
@@ -11,7 +10,7 @@
 "ios.conversation.ui.chat.rating.button_label.good" = "Bagus 👍";
 "ios.conversation.ui.chat.rating.comment.action.button_label" = "Tambah komentar";
 "ios.conversation.ui.chat.rating.comment.prompt.message" = "Kami menghargai umpan balik Anda. Jika Anda inginkan, Anda juga dapat menambah komentar dengan perincian lebih lanjut.";
-"ios.conversation.ui.chat.rating.message" = "Hai, hanya ingin memeriksa bagaimana kemajuan percakapan Anda dengan %@?";
+"ios.conversation.ui.chat.rating.message" = "Hai, hanya ingin memeriksa bagaimana percakapan Anda dengan %@?";
 "ios.conversation.ui.chat.transcript.email_set.label" = "Transkrip akan dikirimkan ke %@ saat percakapan berakhir";
 "ios.conversation.ui.chat.transcript.prompt.ask_email.label" = "Apa alamat email tujuan untuk mengirimkan transkrip tersebut?";
 "ios.conversation.ui.chat.transcript.prompt.cancel" = "Batal";

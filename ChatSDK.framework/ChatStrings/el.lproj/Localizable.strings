@@ -3,7 +3,6 @@
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "Έχουμε λάβει το μήνυμά σας και θα επικοινωνήσουμε μαζί σας το συντομότερο δυνατό.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "Για να επικοινωνήσουμε μαζί σας μόλις κάποιος εκπρόσωπος είναι διαθέσιμος, χρειάζομαι μερικές ακόμη πληροφορίες.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "Για ποιο θέμα θα χρειαστείτε τη βοήθειά μας μόλις είναι κάποιος εκπρόσωπος online;";
-"ios.conversation.ui.chat.offline_form.message_prompt" = "Για να επικοινωνήσουμε μαζί σας μόλις κάποιος εκπρόσωπος είναι διαθέσιμος, χρειάζομαι μερικές ακόμη πληροφορίες.";
 "ios.conversation.ui.chat.offline_form.welcome_message" = "Γεια σας. Δυστυχώς, κανείς δεν είναι online αυτήν τη στιγμή.";
 "ios.conversation.ui.chat.rating.acknowledgement.message" = "Ευχαριστούμε για τις παρατηρήσεις. Τώρα μπορείτε να επιστρέψετε στη συνομιλία σας.";
 "ios.conversation.ui.chat.rating.add.comment.composer.hint" = "Πληκτρολογήστε το σχόλιό σας...";

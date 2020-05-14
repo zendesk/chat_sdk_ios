@@ -3,7 +3,6 @@
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "我们已收到您的消息，将尽快回复您。";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "为了在找到有空的专员时联系您，我需要更多信息。";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "当我们重新回到在线状态时，可以帮您什么忙？";
-"ios.conversation.ui.chat.offline_form.message_prompt" = "为了在找到有空的专员时联系您，我需要更多信息。";
 "ios.conversation.ui.chat.offline_form.welcome_message" = "您好。对不起，当前没有人在线上。";
 "ios.conversation.ui.chat.rating.acknowledgement.message" = "感谢您的反馈。现在您可以返回在线交谈了。";
 "ios.conversation.ui.chat.rating.add.comment.composer.hint" = "输入您的评论……";

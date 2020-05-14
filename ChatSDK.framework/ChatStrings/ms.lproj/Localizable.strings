@@ -3,7 +3,6 @@
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "Kami telah menerima mesej anda dan akan menghubungi anda semula secepat mungkin.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "Untuk menghubungi anda apabila ejen bersedia, saya memerlukan beberapa maklumat lebih lanjut.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "Apakah yang kami boleh bantu anda apabila kami kembali dalam talian?";
-"ios.conversation.ui.chat.offline_form.message_prompt" = "Untuk menghubungi anda apabila ada seseorang, saya memerlukan sedikit maklumat lagi.";
 "ios.conversation.ui.chat.offline_form.welcome_message" = "Hai. Malangnya, tiada sesiapa dalam talian sekarang.";
 "ios.conversation.ui.chat.rating.acknowledgement.message" = "Terima kasih atas maklum balas anda. Anda kini boleh kembali ke sembang anda.";
 "ios.conversation.ui.chat.rating.add.comment.composer.hint" = "Taipkan komen anda...";
@@ -41,5 +40,5 @@
 "ios.conversation.ui.pre_chat.form.skip.button_label" = "Langkau";
 "ios.conversation.ui.pre_chat.form.thank_you.message" = "Terima kasih.";
 "ios.conversation.ui.queue.position" = "Kedudukan baris gilir: %lu";
-"ios.ZDCChat.pushChatEndedBody" = "Your chat with %@ has ended";
-"ios.ZDCChat.pushChatEndedTitle" = "Chat ended";
+"ios.ZDCChat.pushChatEndedBody" = "Sembang anda bersama %@ telah tamat";
+"ios.ZDCChat.pushChatEndedTitle" = "Sembang tamat";

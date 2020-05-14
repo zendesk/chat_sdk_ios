@@ -3,7 +3,6 @@
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "Natanggap namin ang mensahe mo at sasagutin namin ito sa lalong madaling panahon.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "Para makontak ka kapag may isang tao nang available, kailangan ko ng ilang impormasyon.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "Anong maitutulong namin sa iyo kapag online na ulit kami?";
-"ios.conversation.ui.chat.offline_form.message_prompt" = "Upang makontak ka kapag may tao nang nakahanda, kakailanganin ko ng ilang impormasyon.";
 "ios.conversation.ui.chat.offline_form.welcome_message" = "Hi. Sa kasamaang-palad walang naka-online sa sandaling ito.";
 "ios.conversation.ui.chat.rating.acknowledgement.message" = "Salamat sa feedback. Makababalik ka na ngayon sa chat mo.";
 "ios.conversation.ui.chat.rating.add.comment.composer.hint" = "I-type ang komento mo...";
@@ -41,5 +40,5 @@
 "ios.conversation.ui.pre_chat.form.skip.button_label" = "Laktawan";
 "ios.conversation.ui.pre_chat.form.thank_you.message" = "Salamat.";
 "ios.conversation.ui.queue.position" = "Posisyon sa pila: %lu";
-"ios.ZDCChat.pushChatEndedBody" = "Your chat with %@ has ended";
-"ios.ZDCChat.pushChatEndedTitle" = "Chat ended";
+"ios.ZDCChat.pushChatEndedBody" = "Nagwakas ang chat mo kay %@";
+"ios.ZDCChat.pushChatEndedTitle" = "Nagwakas ang chat";

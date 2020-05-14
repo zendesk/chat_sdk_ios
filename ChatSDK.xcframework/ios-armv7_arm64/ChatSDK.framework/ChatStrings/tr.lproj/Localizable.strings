@@ -3,7 +3,6 @@
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "Mesajınızı aldık ve size en kısa sürede döneceğiz.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "Müsait biri olduğu zaman sizinle iletişime geçmek için biraz bilgiye gereksinimim var.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "Yeniden çevrimiçi olduğumuzda size hangi konuda yardımcı olabilirim?";
-"ios.conversation.ui.chat.offline_form.message_prompt" = "Müsait biri olduğu zaman sizinle iletişime geçmek için biraz bilgiye gereksinimim var.";
 "ios.conversation.ui.chat.offline_form.welcome_message" = "Merhaba. Maalesef şu anda çevrimiçi kimse yok.";
 "ios.conversation.ui.chat.rating.acknowledgement.message" = "Geri bildirim için teşekkür ederiz. Şimdi sohbetinize dönebilirsiniz.";
 "ios.conversation.ui.chat.rating.add.comment.composer.hint" = "Yorumunuzu yazın...";

@@ -3,7 +3,6 @@
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "We hebben uw bericht ontvangen en nemen zo snel mogelijk contact met u op.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "We hebben wat meer informatie nodig om contact met u te kunnen opnemen zodra er iemand beschikbaar is.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "Waar kunnen we u mee helpen wanneer we weer online zijn?";
-"ios.conversation.ui.chat.offline_form.message_prompt" = "We hebben wat meer informatie nodig om contact met u te kunnen opnemen zodra er iemand beschikbaar is.";
 "ios.conversation.ui.chat.offline_form.welcome_message" = "Hallo. Er is momenteel niemand online.";
 "ios.conversation.ui.chat.rating.acknowledgement.message" = "Hartelijk dank voor uw feedback. U kunt nu terug naar uw chatgesprek.";
 "ios.conversation.ui.chat.rating.add.comment.composer.hint" = "Typ uw opmerking...";
