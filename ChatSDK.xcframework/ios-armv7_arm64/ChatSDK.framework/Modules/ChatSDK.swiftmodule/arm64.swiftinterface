@@ -7,7 +7,6 @@ import Foundation
 import MessagingAPI
 import SDKConfigurations
 import Swift
-import UIKit
 @_inheritsConvenienceInitializers @objc(ZDKChatConfiguration) final public class ChatConfiguration : ObjectiveC.NSObject, SDKConfigurations.Configuration {
   @objc final public var preChatFormConfiguration: ChatSDK.ChatFormConfiguration
   @objc final public var isChatTranscriptPromptEnabled: Swift.Bool {
