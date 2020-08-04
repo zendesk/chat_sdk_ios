@@ -1,5 +1,4 @@
 "ios.conversation.ui.chat.handover.message.selection" = "與代理交談";
-"ios.conversation.ui.chat.message_acknowledgement" = "我會找到能幫助您的人。首先我需要更多資訊。";
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "我們已收到您的訊息，將儘快回覆您。";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "找到有空的人員時我們會聯絡您，因此我需要更多資訊。";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "您需要我們重新上線後為您提供什麼協助？";

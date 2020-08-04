@@ -1,5 +1,4 @@
 "ios.conversation.ui.chat.handover.message.selection" = "Conversați pe chat cu un agent";
-"ios.conversation.ui.chat.message_acknowledgement" = "Voi găsi pe cineva care să vă ajute. Mai întâi, am nevoie de câteva informații suplimentare.";
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "Am primit mesajul dumneavoastră și vom reveni cu un răspuns cât mai curând posibil.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "Pentru a vă contacta atunci când cineva va fi disponibil, am nevoie de câteva informații suplimentare.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "Cu ce vă putem ajuta atunci când revenim online?";

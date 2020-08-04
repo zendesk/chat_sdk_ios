@@ -1,5 +1,4 @@
 "ios.conversation.ui.chat.handover.message.selection" = "Chat s agentem";
-"ios.conversation.ui.chat.message_acknowledgement" = "Najdu někoho, kdo vám může pomoci. Nejdříve potřebujeme trochu více informací.";
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "Přijali jsme vaši zprávu a ozveme se vám co nejdříve.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "Abychom vás mohli kontaktovat, až bude někdo dostupný, potřebujeme trochu více informací.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "S čím vám můžeme pomoct, až budeme zase online?";

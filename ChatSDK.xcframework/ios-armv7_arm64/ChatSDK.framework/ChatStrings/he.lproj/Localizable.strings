@@ -1,5 +1,4 @@
 "ios.conversation.ui.chat.handover.message.selection" = "צ‘אט עם נציג";
-"ios.conversation.ui.chat.message_acknowledgement" = "אני אמצא מישהו שיעזור לך. אבל לפני כן אני צריך עוד כמה פרטים.";
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "קיבלנו את ההודעה שלך ונחזור אליך בהקדם האפשרי.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "כדי ליצור איתך קשר כשמישהו יהיה זמין, אני צריך עוד כמה פרטים.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "במה נוכל לעזור כשנחזור להיות מקוונים?";

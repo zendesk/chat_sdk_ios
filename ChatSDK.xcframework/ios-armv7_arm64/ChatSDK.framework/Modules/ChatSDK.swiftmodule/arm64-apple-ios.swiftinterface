@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)
+// swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
 // swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ChatSDK
 import ChatProvidersSDK
 @_exported import ChatSDK
@@ -25,6 +25,12 @@ import Swift
     @objc get
     @objc set
   }
+  @objc override final public var description: Swift.String {
+    @objc get
+  }
+  @objc override final public var debugDescription: Swift.String {
+    @objc get
+  }
   final public var chatMenuActions: [ChatSDK.ChatMenuAction]
   @objc override dynamic public init()
   @objc deinit
@@ -45,15 +51,24 @@ extension ChatConfiguration {
   @objc final public var email: ChatSDK.FormFieldStatus
   @objc final public var phoneNumber: ChatSDK.FormFieldStatus
   @objc final public var department: ChatSDK.FormFieldStatus
+  @objc override final public var description: Swift.String {
+    @objc get
+  }
+  @objc override final public var debugDescription: Swift.String {
+    @objc get
+  }
   @objc public init(name: ChatSDK.FormFieldStatus = .optional, email: ChatSDK.FormFieldStatus = .optional, phoneNumber: ChatSDK.FormFieldStatus = .optional, department: ChatSDK.FormFieldStatus = .optional)
   @objc override final public func isEqual(_ object: Any?) -> Swift.Bool
   @objc override dynamic public init()
   @objc deinit
 }
-@objc(ZDKFormFieldStatus) public enum FormFieldStatus : Swift.Int, Swift.Equatable {
+@objc(ZDKFormFieldStatus) public enum FormFieldStatus : Swift.Int, Swift.Equatable, Swift.CustomStringConvertible {
   case required
   case optional
   case hidden
+  public var description: Swift.String {
+    get
+  }
   public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
   public var rawValue: Swift.Int {
@@ -68,7 +83,9 @@ extension ChatConfiguration {
     get
   }
   @objc deinit
+  @available(*, deprecated, message: "Use isConversationOngoing(_ completion: @escaping (Bool) -> Void) instead")
   @objc final public func isConversationOngoing() -> Swift.Bool
+  @objc final public func isConversationOngoing(_ completion: @escaping (Swift.Bool) -> Swift.Void)
   @objc public static func engine() throws -> ChatSDK.ChatEngine
   final public func onEvent(_ event: MessagingAPI.Event)
   @objc override dynamic public init()

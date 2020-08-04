@@ -1,5 +1,4 @@
 "ios.conversation.ui.chat.handover.message.selection" = "एजेंट से चैट करें";
-"ios.conversation.ui.chat.message_acknowledgement" = "आपकी सहायता करने के लिए हम किसी को खोज रहे हैं. पहले हमें कुछ और जानकारी चाहिए.";
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "हमें आपका संदेश मिल गया है और हम जल्दी से जल्दी आपको जवाब देने की कोशिश करेंगे.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "जब कोई आपकी सहायता के लिए उपलब्ध हो जाएगा, तब आपसे संपर्क करने के लिए हमें कुछ और जानकारी चाहिए.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "वापस ऑनलाइन आने के बाद, हम आपकी किस तरह से सहायता कर सकते हैं?";

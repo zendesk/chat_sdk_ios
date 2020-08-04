@@ -1,5 +1,4 @@
 "ios.conversation.ui.chat.handover.message.selection" = "Чат с консултант";
-"ios.conversation.ui.chat.message_acknowledgement" = "Ще намеря кой да ви помогне. Трябва ми обаче още малко информация.";
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "Получихме съобщението ви и ще се свържем с вас при първа възможност.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "За да се свържем с вас, когато има консултант на разположение, е нужна още малко информация.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "С какво можем да ви помогнем, когато отново сме онлайн?";

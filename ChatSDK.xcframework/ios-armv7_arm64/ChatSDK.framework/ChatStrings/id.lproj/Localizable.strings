@@ -1,5 +1,4 @@
 "ios.conversation.ui.chat.handover.message.selection" = "Bercakap dengan agen";
-"ios.conversation.ui.chat.message_acknowledgement" = "Saya akan mencari seseorang untuk membantu Anda. Pertama-tama, saya perlu beberapa informasi tambahan.";
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "Kami telah menerima pesan Anda dan akan menghubungi Anda kembali secepatnya.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "Agar dapat menghubungi Anda ketika tersedia seseorang untuk membantu Anda, saya perlu beberapa informasi tambahan.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "Apa yang dapat kami bantu saat kami kembali online?";

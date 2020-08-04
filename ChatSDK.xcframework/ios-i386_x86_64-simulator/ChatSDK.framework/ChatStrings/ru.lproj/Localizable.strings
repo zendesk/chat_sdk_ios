@@ -1,5 +1,4 @@
 "ios.conversation.ui.chat.handover.message.selection" = "Чат с агентом";
-"ios.conversation.ui.chat.message_acknowledgement" = "Я найду кого-нибудь, кто сможет вам помочь. Но сначала мне нужно побольше информации.";
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "Мы получили ваше сообщение и свяжемся с вами в ближайшее время.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "Чтобы свободный агент мог с вами связаться, нам нужно больше информации.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "Чем мы можем вам помочь, когда снова будем на связи?";

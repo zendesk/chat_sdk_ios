@@ -1,5 +1,4 @@
 "ios.conversation.ui.chat.handover.message.selection" = "Chat med en kundekonsulent";
-"ios.conversation.ui.chat.message_acknowledgement" = "Jeg skal få noen til å hjelpe deg. Først må jeg få litt mer informasjon.";
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "Vi har mottatt meldingen og tar kontakt så snart som mulig.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "Vi trenger litt mer informasjon for å kunne ta kontakt med deg når noen er tilgjengelig.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "Hva kan vi hjelpe deg med når vi er online igjen?";

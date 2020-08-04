@@ -1,5 +1,4 @@
 "ios.conversation.ui.chat.handover.message.selection" = "Chattaa tukihenkilön kanssa";
-"ios.conversation.ui.chat.message_acknowledgement" = "Etsin sinulle jonkun, joka voi auttaa sinua. Ensin tarvitsen hieman lisätietoja.";
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "Olemme vastaanottaneet viestisi ja otamme sinuun yhteyttä mahdollisimman pian.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "Jotta voimme ottaa sinuun yhteyttä, kun joku on saatavilla, tarvitsen hieman lisätietoja.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "Miten voimme auttaa sinua, kun olemme palanneet Online-tilaan?";

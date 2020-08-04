@@ -1,5 +1,4 @@
 "ios.conversation.ui.chat.handover.message.selection" = "Chattez avec un agent";
-"ios.conversation.ui.chat.message_acknowledgement" = "Je vais trouver quelqu’un capable de vous aider. D’abord, j’ai besoin de quelques informations.";
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "Nous avons bien reçu votre message et reviendrons vers vous dans les plus brefs délais.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "Pour pouvoir vous contacter quand un agent sera disponible, j’ai besoin de quelques informations.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "Que pourrons-nous faire pour vous quand un agent sera disponible en ligne ?";

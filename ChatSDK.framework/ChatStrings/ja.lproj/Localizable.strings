@@ -1,5 +1,4 @@
 "ios.conversation.ui.chat.handover.message.selection" = "エージェントとチャットする";
-"ios.conversation.ui.chat.message_acknowledgement" = "担当の者におつなぎしますので、お名前とお電話番号を教えてください。";
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "メッセージを受け取りました。早急にご連絡を差し上げます。";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "担当者が戻り次第ご連絡を差し上げますので、お名前とお電話番号を教えてください。";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "オンラインになりましたらすぐに応対できますよう、お困りの件をお知らせいただけないでしょうか。";

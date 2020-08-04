@@ -1,5 +1,4 @@
 "ios.conversation.ui.chat.handover.message.selection" = "Sembang dengan ejen";
-"ios.conversation.ui.chat.message_acknowledgement" = "Saya akan mencari seseorang untuk membantu anda. Pertama sekali, saya perlukan sedikit lagi maklumat.";
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "Kami telah menerima mesej anda dan akan menghubungi anda semula secepat mungkin.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "Untuk menghubungi anda apabila ejen bersedia, saya memerlukan beberapa maklumat lebih lanjut.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "Apakah yang kami boleh bantu anda apabila kami kembali dalam talian?";

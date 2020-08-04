@@ -1,5 +1,4 @@
 "ios.conversation.ui.chat.handover.message.selection" = "دردش مع وكيل";
-"ios.conversation.ui.chat.message_acknowledgement" = "دعني أجد من يساعدك. أحتاج أولًا لمعلومات إضافية.";
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "وصلتنا رسالتك وسنرد عليك في أقرب وقت ممكن.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "ليتسنى لنا الاتصال بك عند توافر شخص يمكنه مساعدتك، أحتاج إلى بعض المعلومات.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "كيف يمكننا مساعدتك حين نعاود الاتصال؟";
