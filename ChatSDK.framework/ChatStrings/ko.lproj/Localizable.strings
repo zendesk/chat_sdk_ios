@@ -3,12 +3,12 @@
 "ios.conversation.ui.chat.offline_form.introduction_message" = "고객님께 연락을 드리기 위해 몇 가지 정보가 더 필요합니다.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "다시 온라인 상태가 되었을 때 어떻게 도와드릴까요?";
 "ios.conversation.ui.chat.offline_form.welcome_message" = "안녕하세요. 현재 온라인 상태인 사람이 아무도 없습니다.";
-"ios.conversation.ui.chat.rating.acknowledgement.message" = "의견 주셔서 감사합니다. 이제 채팅으로 돌아갈 수 있습니다.";
+"ios.conversation.ui.chat.rating.acknowledgement.message" = "피드백 주셔서 감사합니다. 이제 채팅으로 돌아갈 수 있습니다.";
 "ios.conversation.ui.chat.rating.add.comment.composer.hint" = "댓글을 입력하세요...";
 "ios.conversation.ui.chat.rating.button_label.bad" = "나쁨 👎";
 "ios.conversation.ui.chat.rating.button_label.good" = "좋음 👍";
 "ios.conversation.ui.chat.rating.comment.action.button_label" = "댓글 추가";
-"ios.conversation.ui.chat.rating.comment.prompt.message" = "소중한 의견을 주세요. 원하시면 댓글을 추가하여 더 자세히 설명하실 수도 있습니다.";
+"ios.conversation.ui.chat.rating.comment.prompt.message" = "소중한 피드백을 주세요. 원하시면 댓글을 추가하여 더 자세히 설명하실 수도 있습니다.";
 "ios.conversation.ui.chat.rating.message" = "%@님과의 채팅이 어땠나요?";
 "ios.conversation.ui.chat.transcript.email_set.label" = "채팅이 종료되면 %@(으)로 대화 내용이 전송됩니다.";
 "ios.conversation.ui.chat.transcript.prompt.ask_email.label" = "대화 내용을 어느 이메일 주소로 보내야 하나요?";
