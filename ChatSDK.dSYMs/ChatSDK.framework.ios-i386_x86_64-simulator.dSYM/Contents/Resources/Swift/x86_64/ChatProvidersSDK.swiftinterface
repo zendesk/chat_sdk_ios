@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
+// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
 // swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ChatProvidersSDK
 @_exported import ChatProvidersSDK
 import CommonCrypto
@@ -202,19 +202,19 @@ public protocol Log {
   func logit(file: Swift.StaticString, line: Swift.Int, function: Swift.StaticString, level: ChatProvidersSDK.LogLevel, error: Swift.Error?, msg: Swift.String, args: [Swift.CVarArg])
 }
 extension Log {
-  public func logit(file: Swift.StaticString = #file, line: Swift.Int = #line, function: Swift.StaticString = #function, logLevel: ChatProvidersSDK.LogLevel, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
-  public func i(file: Swift.StaticString = #file, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
-  public func v(file: Swift.StaticString = #file, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
-  public func d(file: Swift.StaticString = #file, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
-  public func w(file: Swift.StaticString = #file, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
-  public func e(file: Swift.StaticString = #file, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
+  public func logit(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, logLevel: ChatProvidersSDK.LogLevel, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
+  public func i(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
+  public func v(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
+  public func d(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
+  public func w(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
+  public func e(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
 }
 extension Log {
-  public func debugI(file: Swift.StaticString = #file, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
-  public func debugV(file: Swift.StaticString = #file, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
-  public func debugD(file: Swift.StaticString = #file, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
-  public func debugW(file: Swift.StaticString = #file, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
-  public func debugE(file: Swift.StaticString = #file, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
+  public func debugI(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
+  public func debugV(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
+  public func debugD(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
+  public func debugW(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
+  public func debugE(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
 }
 public protocol LoggerFactory {
   func getLoggerFor(namespace: Swift.String, andClass clazz: Any) -> ChatProvidersSDK.Log
@@ -770,6 +770,7 @@ extension OfflineForm {
   @objc final public var chatState: ChatProvidersSDK.ChatState {
     @objc get
   }
+  @available(*, deprecated, message: "This API is no longer supported")
   @objc final public func requestChat()
   final public func getChatInfo(_ completion: @escaping (Swift.Result<ChatProvidersSDK.ChatInfo, Swift.Error>) -> Swift.Void)
   @objc final public func sendTyping(isTyping: Swift.Bool)

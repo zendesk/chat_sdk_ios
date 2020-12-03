@@ -307,7 +307,7 @@
 		</dict>
 		<key>Headers/ChatSDK-Swift.h</key>
 		<data>
-		6aOAoQLUJMvoc03/5caTV1/VmTA=
+		mrNoC4BHHW55Tklc8gqh9nHnuGI=
 		</data>
 		<key>Headers/ChatSDK.h</key>
 		<data>
@@ -315,55 +315,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zyJV+Bw21syiSYnUER4JInGwcZg=
+		sxqU192YlftQsxZdp/4AmbG4IZw=
 		</data>
 		<key>Modules/ChatSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		FxhaSPD3th+w17kcmKxn8HpGVbk=
+		/CAE6gqXML4E3Ws/dOCfHMc/f8w=
 		</data>
 		<key>Modules/ChatSDK.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6uh1Kfsd4Zh+U0aluaA/Te2I5qE=
+		af76jzxTx9Wpa2hwtn3DS1Bdpms=
 		</data>
 		<key>Modules/ChatSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		M6tQivqVsE6mwxUpvTmfRTYlM4U=
+		GDn8z9fk7n96M8HvBh4qlJXqiqc=
 		</data>
 		<key>Modules/ChatSDK.swiftmodule/i386.swiftdoc</key>
 		<data>
-		FxhaSPD3th+w17kcmKxn8HpGVbk=
+		/CAE6gqXML4E3Ws/dOCfHMc/f8w=
 		</data>
 		<key>Modules/ChatSDK.swiftmodule/i386.swiftinterface</key>
 		<data>
-		6uh1Kfsd4Zh+U0aluaA/Te2I5qE=
+		af76jzxTx9Wpa2hwtn3DS1Bdpms=
 		</data>
 		<key>Modules/ChatSDK.swiftmodule/i386.swiftmodule</key>
 		<data>
-		M6tQivqVsE6mwxUpvTmfRTYlM4U=
+		GDn8z9fk7n96M8HvBh4qlJXqiqc=
 		</data>
 		<key>Modules/ChatSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		v2TUC93CpMHtwLKzxApx1SZZxxs=
+		7xMu4t2tHj1Y//4XLFDC5MqXFEY=
 		</data>
 		<key>Modules/ChatSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		nFKr+DIs3G3P80iFAZhhLiKqwcM=
+		MSeyZiCZNZGGRcVYMdwGIO46Ubk=
 		</data>
 		<key>Modules/ChatSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Pr51nz+vQtM/2P9igJqm0BuYh5Y=
+		Xzn6l7nfbNky7/olzfsrI4a3u10=
 		</data>
 		<key>Modules/ChatSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		v2TUC93CpMHtwLKzxApx1SZZxxs=
+		7xMu4t2tHj1Y//4XLFDC5MqXFEY=
 		</data>
 		<key>Modules/ChatSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		nFKr+DIs3G3P80iFAZhhLiKqwcM=
+		MSeyZiCZNZGGRcVYMdwGIO46Ubk=
 		</data>
 		<key>Modules/ChatSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		Pr51nz+vQtM/2P9igJqm0BuYh5Y=
+		Xzn6l7nfbNky7/olzfsrI4a3u10=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -816,11 +816,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6aOAoQLUJMvoc03/5caTV1/VmTA=
+			mrNoC4BHHW55Tklc8gqh9nHnuGI=
 			</data>
 			<key>hash2</key>
 			<data>
-			ygQRJb/rtzZPjyRKKxdIHkAz68fNrE/2Fi8R3D7Xq+M=
+			GFtwfP71oMgYtGWBBMAJmMae8Hw2TAmaiotciuTRiHg=
 			</data>
 		</dict>
 		<key>Headers/ChatSDK.h</key>
@@ -838,132 +838,132 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FxhaSPD3th+w17kcmKxn8HpGVbk=
+			/CAE6gqXML4E3Ws/dOCfHMc/f8w=
 			</data>
 			<key>hash2</key>
 			<data>
-			ud3B37t4vJcJgw6MMoAqTzKTret3t2MhJQ28A/Xv2wI=
+			iI0nOzeU8/CfjvDR5fnN0O7pFzHFs7lc56G4SBgwl18=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6uh1Kfsd4Zh+U0aluaA/Te2I5qE=
+			af76jzxTx9Wpa2hwtn3DS1Bdpms=
 			</data>
 			<key>hash2</key>
 			<data>
-			/XVKkYjmGrYMEjN5tI7z9BnGmZq/LZZBAlJhnSislOo=
+			U/3lRnzejMD/vuoz3LedMrCQ4XcAzihgxLuJH7Hay5g=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			M6tQivqVsE6mwxUpvTmfRTYlM4U=
+			GDn8z9fk7n96M8HvBh4qlJXqiqc=
 			</data>
 			<key>hash2</key>
 			<data>
-			r96aknmeq7CgEuggAbixqj+wVKepRXJyeTaoMt/S648=
+			gCdzpIE6qkpMh8FWHhJiKLSbsRfj9YRbQbzIHHMfWQ8=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FxhaSPD3th+w17kcmKxn8HpGVbk=
+			/CAE6gqXML4E3Ws/dOCfHMc/f8w=
 			</data>
 			<key>hash2</key>
 			<data>
-			ud3B37t4vJcJgw6MMoAqTzKTret3t2MhJQ28A/Xv2wI=
+			iI0nOzeU8/CfjvDR5fnN0O7pFzHFs7lc56G4SBgwl18=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/i386.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6uh1Kfsd4Zh+U0aluaA/Te2I5qE=
+			af76jzxTx9Wpa2hwtn3DS1Bdpms=
 			</data>
 			<key>hash2</key>
 			<data>
-			/XVKkYjmGrYMEjN5tI7z9BnGmZq/LZZBAlJhnSislOo=
+			U/3lRnzejMD/vuoz3LedMrCQ4XcAzihgxLuJH7Hay5g=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			M6tQivqVsE6mwxUpvTmfRTYlM4U=
+			GDn8z9fk7n96M8HvBh4qlJXqiqc=
 			</data>
 			<key>hash2</key>
 			<data>
-			r96aknmeq7CgEuggAbixqj+wVKepRXJyeTaoMt/S648=
+			gCdzpIE6qkpMh8FWHhJiKLSbsRfj9YRbQbzIHHMfWQ8=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v2TUC93CpMHtwLKzxApx1SZZxxs=
+			7xMu4t2tHj1Y//4XLFDC5MqXFEY=
 			</data>
 			<key>hash2</key>
 			<data>
-			pSabLdvFQybgZlCzFH/mI4EUOiH65nWLc4HoLwCo4lw=
+			0xP+U1HvywNNqQTwx67Nu3ssCC1udr68SZyiak5Y5jY=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nFKr+DIs3G3P80iFAZhhLiKqwcM=
+			MSeyZiCZNZGGRcVYMdwGIO46Ubk=
 			</data>
 			<key>hash2</key>
 			<data>
-			uKO58L444gIznpoIoh4fVjYUrUvTcI/p/MqOrKIQU/s=
+			N/PSIlAU+luFt5h+i+tQf5TMcrH/YS4huvgIKQeAZ0I=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Pr51nz+vQtM/2P9igJqm0BuYh5Y=
+			Xzn6l7nfbNky7/olzfsrI4a3u10=
 			</data>
 			<key>hash2</key>
 			<data>
-			D6dB7r3Srl11t70/JoWaYNZYkXqlfy74la8TndDWJOk=
+			37sVQjxp1ZsQwg7Y5seBHJf7+I6MO1C9t6+rR+0CfU8=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v2TUC93CpMHtwLKzxApx1SZZxxs=
+			7xMu4t2tHj1Y//4XLFDC5MqXFEY=
 			</data>
 			<key>hash2</key>
 			<data>
-			pSabLdvFQybgZlCzFH/mI4EUOiH65nWLc4HoLwCo4lw=
+			0xP+U1HvywNNqQTwx67Nu3ssCC1udr68SZyiak5Y5jY=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nFKr+DIs3G3P80iFAZhhLiKqwcM=
+			MSeyZiCZNZGGRcVYMdwGIO46Ubk=
 			</data>
 			<key>hash2</key>
 			<data>
-			uKO58L444gIznpoIoh4fVjYUrUvTcI/p/MqOrKIQU/s=
+			N/PSIlAU+luFt5h+i+tQf5TMcrH/YS4huvgIKQeAZ0I=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Pr51nz+vQtM/2P9igJqm0BuYh5Y=
+			Xzn6l7nfbNky7/olzfsrI4a3u10=
 			</data>
 			<key>hash2</key>
 			<data>
-			D6dB7r3Srl11t70/JoWaYNZYkXqlfy74la8TndDWJOk=
+			37sVQjxp1ZsQwg7Y5seBHJf7+I6MO1C9t6+rR+0CfU8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
