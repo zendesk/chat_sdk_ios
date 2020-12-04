@@ -13,10 +13,10 @@ let package = Package(
     ],
     dependencies: [
         .package(name: "ZendeskChatProvidersSDK",
-                 url: "https://github.com/zendesk/chat_providers_sdk_ios/releases/download/2.10.0/ChatProvidersSDK.xcframework.zip",
+                 url: "https://github.com/zendesk/chat_providers_sdk_ios",
                  from: "2.10.0"),
         .package(name: "ZendeskMessagingSDK",
-                 url: "https://github.com/zendesk/messaging_sdk_ios/releases/download/3.8.1/MessagingSDK.xcframework.zip",
+                 url: "https://github.com/zendesk/messaging_sdk_ios",
                  from: "3.8.1"),
     ],
     targets: [
