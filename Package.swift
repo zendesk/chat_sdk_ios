@@ -27,6 +27,7 @@ let package = Package(
         .target(name: "ZendeskChatSDKTargets",
                 dependencies: [
                     .target(name: "ZendeskChatSDK"),
+                    .product(name: "ZendeskChatProvidersSDK", package: "ZendeskChatProvidersSDK"),
                     .product(name: "ZendeskMessagingSDK", package: "ZendeskMessagingSDK")
                 ],
                 path: "Sources"
