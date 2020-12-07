@@ -22,8 +22,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ZendeskChatSDK",
-            url: "https://github.com/zendesk/chat_sdk_ios/releases/download/2.10.0/ChatSDK.xcframework.zip",
-            checksum: "01238e011b9f1c2ed30603ae63e7f9e7b78b4c2dadc383967be0d3588afdf921"
+            path: "ChatSDK.xcframework"
         ),
         .target(name: "ZendeskChatSDKTargets",
                 dependencies: [
