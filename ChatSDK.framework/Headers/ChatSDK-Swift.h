@@ -216,6 +216,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 @class ZDKChatFormConfiguration;
 
+/// Configuration class to modify the behaviour of the Chat UI such as forms, and <code>ChatMenuAction</code>s
+/// This can be passed into the <code>Messaging.buildUI(engines:configs:)</code> method.
 SWIFT_CLASS_NAMED("ChatConfiguration")
 @interface ZDKChatConfiguration : NSObject <ZDKConfiguration>
 /// Configures the fields in the prechat form
@@ -288,6 +290,7 @@ SWIFT_CLASS_NAMED("ChatEngine")
 
 enum ZDKFormFieldStatus : NSInteger;
 
+/// Configuration object used to gather the desired requirements for a Chat form.
 SWIFT_CLASS_NAMED("ChatFormConfiguration")
 @interface ZDKChatFormConfiguration : NSObject
 /// Sets how the name field is presented to the end-user. Field is <code>.optional</code> by default.
@@ -309,8 +312,11 @@ SWIFT_CLASS_NAMED("ChatFormConfiguration")
 
 
 
+/// Possible items that appear in the right <code>UIBarButtonItem</code> in the Chat screen’s <code>UINavigationController</code>
 typedef SWIFT_ENUM_NAMED(NSInteger, ZDKChatMenuAction, "ChatMenuAction", open) {
+/// Allows the user to end the chat
   ZDKChatMenuActionEndChat = 0,
+/// Allows the user to send a transcript of the finished chat to the specified email
   ZDKChatMenuActionEmailTranscript = 1,
 };
 
@@ -553,6 +559,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 @class ZDKChatFormConfiguration;
 
+/// Configuration class to modify the behaviour of the Chat UI such as forms, and <code>ChatMenuAction</code>s
+/// This can be passed into the <code>Messaging.buildUI(engines:configs:)</code> method.
 SWIFT_CLASS_NAMED("ChatConfiguration")
 @interface ZDKChatConfiguration : NSObject <ZDKConfiguration>
 /// Configures the fields in the prechat form
@@ -625,6 +633,7 @@ SWIFT_CLASS_NAMED("ChatEngine")
 
 enum ZDKFormFieldStatus : NSInteger;
 
+/// Configuration object used to gather the desired requirements for a Chat form.
 SWIFT_CLASS_NAMED("ChatFormConfiguration")
 @interface ZDKChatFormConfiguration : NSObject
 /// Sets how the name field is presented to the end-user. Field is <code>.optional</code> by default.
@@ -646,8 +655,11 @@ SWIFT_CLASS_NAMED("ChatFormConfiguration")
 
 
 
+/// Possible items that appear in the right <code>UIBarButtonItem</code> in the Chat screen’s <code>UINavigationController</code>
 typedef SWIFT_ENUM_NAMED(NSInteger, ZDKChatMenuAction, "ChatMenuAction", open) {
+/// Allows the user to end the chat
   ZDKChatMenuActionEndChat = 0,
+/// Allows the user to send a transcript of the finished chat to the specified email
   ZDKChatMenuActionEmailTranscript = 1,
 };
 
@@ -890,6 +902,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 @class ZDKChatFormConfiguration;
 
+/// Configuration class to modify the behaviour of the Chat UI such as forms, and <code>ChatMenuAction</code>s
+/// This can be passed into the <code>Messaging.buildUI(engines:configs:)</code> method.
 SWIFT_CLASS_NAMED("ChatConfiguration")
 @interface ZDKChatConfiguration : NSObject <ZDKConfiguration>
 /// Configures the fields in the prechat form
@@ -962,6 +976,7 @@ SWIFT_CLASS_NAMED("ChatEngine")
 
 enum ZDKFormFieldStatus : NSInteger;
 
+/// Configuration object used to gather the desired requirements for a Chat form.
 SWIFT_CLASS_NAMED("ChatFormConfiguration")
 @interface ZDKChatFormConfiguration : NSObject
 /// Sets how the name field is presented to the end-user. Field is <code>.optional</code> by default.
@@ -983,8 +998,11 @@ SWIFT_CLASS_NAMED("ChatFormConfiguration")
 
 
 
+/// Possible items that appear in the right <code>UIBarButtonItem</code> in the Chat screen’s <code>UINavigationController</code>
 typedef SWIFT_ENUM_NAMED(NSInteger, ZDKChatMenuAction, "ChatMenuAction", open) {
+/// Allows the user to end the chat
   ZDKChatMenuActionEndChat = 0,
+/// Allows the user to send a transcript of the finished chat to the specified email
   ZDKChatMenuActionEmailTranscript = 1,
 };
 
@@ -1230,6 +1248,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 @class ZDKChatFormConfiguration;
 
+/// Configuration class to modify the behaviour of the Chat UI such as forms, and <code>ChatMenuAction</code>s
+/// This can be passed into the <code>Messaging.buildUI(engines:configs:)</code> method.
 SWIFT_CLASS_NAMED("ChatConfiguration")
 @interface ZDKChatConfiguration : NSObject <ZDKConfiguration>
 /// Configures the fields in the prechat form
@@ -1302,6 +1322,7 @@ SWIFT_CLASS_NAMED("ChatEngine")
 
 enum ZDKFormFieldStatus : NSInteger;
 
+/// Configuration object used to gather the desired requirements for a Chat form.
 SWIFT_CLASS_NAMED("ChatFormConfiguration")
 @interface ZDKChatFormConfiguration : NSObject
 /// Sets how the name field is presented to the end-user. Field is <code>.optional</code> by default.
@@ -1323,8 +1344,11 @@ SWIFT_CLASS_NAMED("ChatFormConfiguration")
 
 
 
+/// Possible items that appear in the right <code>UIBarButtonItem</code> in the Chat screen’s <code>UINavigationController</code>
 typedef SWIFT_ENUM_NAMED(NSInteger, ZDKChatMenuAction, "ChatMenuAction", open) {
+/// Allows the user to end the chat
   ZDKChatMenuActionEndChat = 0,
+/// Allows the user to send a transcript of the finished chat to the specified email
   ZDKChatMenuActionEmailTranscript = 1,
 };
 
@@ -1567,6 +1591,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 @class ZDKChatFormConfiguration;
 
+/// Configuration class to modify the behaviour of the Chat UI such as forms, and <code>ChatMenuAction</code>s
+/// This can be passed into the <code>Messaging.buildUI(engines:configs:)</code> method.
 SWIFT_CLASS_NAMED("ChatConfiguration")
 @interface ZDKChatConfiguration : NSObject <ZDKConfiguration>
 /// Configures the fields in the prechat form
@@ -1639,6 +1665,7 @@ SWIFT_CLASS_NAMED("ChatEngine")
 
 enum ZDKFormFieldStatus : NSInteger;
 
+/// Configuration object used to gather the desired requirements for a Chat form.
 SWIFT_CLASS_NAMED("ChatFormConfiguration")
 @interface ZDKChatFormConfiguration : NSObject
 /// Sets how the name field is presented to the end-user. Field is <code>.optional</code> by default.
@@ -1660,8 +1687,11 @@ SWIFT_CLASS_NAMED("ChatFormConfiguration")
 
 
 
+/// Possible items that appear in the right <code>UIBarButtonItem</code> in the Chat screen’s <code>UINavigationController</code>
 typedef SWIFT_ENUM_NAMED(NSInteger, ZDKChatMenuAction, "ChatMenuAction", open) {
+/// Allows the user to end the chat
   ZDKChatMenuActionEndChat = 0,
+/// Allows the user to send a transcript of the finished chat to the specified email
   ZDKChatMenuActionEmailTranscript = 1,
 };
 
