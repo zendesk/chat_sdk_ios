@@ -1,2 +1,2 @@
-github "zendesk/chat_providers_sdk_ios" ~> 2.11.1
-github "zendesk/messaging_sdk_ios" ~> 3.8.2
+github "zendesk/chat_providers_sdk_ios" ~> 2.11.2
+github "zendesk/messaging_sdk_ios" ~> 3.8.3

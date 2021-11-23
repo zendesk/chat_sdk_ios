@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
 // swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ChatSDK
 import ChatProvidersSDK
 @_exported import ChatSDK
@@ -7,7 +7,8 @@ import Foundation
 import MessagingAPI
 import SDKConfigurations
 import Swift
-extension ChatEngine {
+import _Concurrency
+extension ChatSDK.ChatEngine {
   @available(*, deprecated, message: "Use isConversationOngoing(_ completion: @escaping (Bool) -> Void) instead")
   @objc final public func isConversationOngoing() -> Swift.Bool
 }
@@ -39,10 +40,10 @@ extension ChatEngine {
   @objc override dynamic public init()
   @objc deinit
 }
-extension ChatConfiguration {
+extension ChatSDK.ChatConfiguration {
   @objc override final public func isEqual(_ object: Any?) -> Swift.Bool
 }
-extension ChatConfiguration {
+extension ChatSDK.ChatConfiguration {
   @available(swift, obsoleted: 1.0)
   @objc final public func setChatMenuActions(_ actions: [Swift.Int])
   @available(swift, obsoleted: 1.0)
@@ -63,7 +64,6 @@ extension ChatConfiguration {
   }
   @objc public init(name: ChatSDK.FormFieldStatus = .optional, email: ChatSDK.FormFieldStatus = .optional, phoneNumber: ChatSDK.FormFieldStatus = .optional, department: ChatSDK.FormFieldStatus = .optional)
   @objc override final public func isEqual(_ object: Any?) -> Swift.Bool
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc(ZDKFormFieldStatus) public enum FormFieldStatus : Swift.Int, Swift.Equatable, Swift.CustomStringConvertible {
@@ -73,8 +73,8 @@ extension ChatConfiguration {
   public var description: Swift.String {
     get
   }
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
@@ -90,21 +90,20 @@ extension ChatConfiguration {
   @objc final public func isConversationOngoing(_ completion: @escaping (Swift.Bool) -> Swift.Void)
   @objc public static func engine() throws -> ChatSDK.ChatEngine
   final public func onEvent(_ event: MessagingAPI.Event)
-  @objc override dynamic public init()
 }
-extension ChatEngine {
+extension ChatSDK.ChatEngine {
   final public func start(messagingAPI: MessagingAPI.MessagingAPIProtocol)
   final public func stop()
 }
-extension ChatEngine : MessagingAPI.Observable {
+extension ChatSDK.ChatEngine : MessagingAPI.Observable {
   final public func observeUpdates(_ completion: @escaping (MessagingAPI.Update) -> Swift.Void) -> MessagingAPI.ObservationToken
   public typealias Observable = MessagingAPI.Update
 }
 @objc(ZDKChatMenuAction) public enum ChatMenuAction : Swift.Int {
   case endChat
   case emailTranscript
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
