@@ -105,7 +105,13 @@ extension ChatProvidersSDK.ProfileProvider {
   @objc final public var visitorPathTwo: Swift.String
   @objc final public var visitorPathTwoValue: Swift.String?
   @objc final public var tags: [Swift.String]
-  @objc final public var department: Swift.String?
+  @available(*, deprecated, renamed: "departmentName")
+  @objc final public var department: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc final public var departmentName: Swift.String?
+  @objc final public var departmentId: Swift.String?
   @objc final public var visitorInfo: ChatProvidersSDK.VisitorInfo?
   @objc override dynamic public init()
   @objc deinit
@@ -773,6 +779,7 @@ extension ChatProvidersSDK.OfflineForm {
   @objc final public func requestChat()
   final public func getChatInfo(_ completion: @escaping (Swift.Result<ChatProvidersSDK.ChatInfo, Swift.Error>) -> Swift.Void)
   final public func setDepartment(_ name: Swift.String?, completion: ((Swift.Result<Swift.String?, ChatProvidersSDK.DeliveryStatusError>) -> Swift.Void)? = nil)
+  final public func setDepartmentByIdentifier(_ id: Swift.String?, completion: ((Swift.Result<Swift.String?, ChatProvidersSDK.DeliveryStatusError>) -> Swift.Void)? = nil)
   @objc final public func sendTyping(isTyping: Swift.Bool)
   final public func sendOfflineForm(_ offlineForm: ChatProvidersSDK.OfflineForm, completion: ((Swift.Result<ChatProvidersSDK.OfflineForm, ChatProvidersSDK.DeliveryStatusError>) -> Swift.Void)? = nil)
   final public func sendMessage(_ message: Swift.String, completion: ((Swift.Result<Swift.String, ChatProvidersSDK.DeliveryStatusError>) -> Swift.Void)? = nil)
@@ -792,6 +799,8 @@ extension ChatProvidersSDK.OfflineForm {
   @objc final public func getChatInfo(_ completion: @escaping ((ChatProvidersSDK.ChatInfo?, Swift.Error?) -> Swift.Void))
   @objc @available(swift, obsoleted: 1.0)
   final public func setDepartment(_ name: Swift.String?, completion: ((Swift.String?, Swift.Error?) -> Swift.Void)?)
+  @available(swift, obsoleted: 1.0)
+  @objc(setDepartment:_:) final public func setDepartment(_ id: Swift.String, completion: ((Swift.String?, Swift.Error?) -> Swift.Void)?)
   @available(swift, obsoleted: 1.0)
   @objc final public func sendMessage(_ message: Swift.String, completion: ((Swift.String?, Swift.Error?) -> Swift.Void)?)
   @available(swift, obsoleted: 1.0)

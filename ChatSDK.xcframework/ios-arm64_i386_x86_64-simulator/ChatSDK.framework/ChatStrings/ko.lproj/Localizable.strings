@@ -1,4 +1,5 @@
 "ios.conversation.ui.chat.handover.message.selection" = "상담원과 채팅";
+"ios.conversation.ui.chat.message.unable_to_determine_availability" = "안녕하세요. 상담원의 대화 가능 여부를 확인할 수 없습니다.";
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "고객님의 메시지를 잘 받았고 가능한 빨리 연락드리도록 하겠습니다.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "고객님께 연락을 드리기 위해 몇 가지 정보가 더 필요합니다.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "다시 온라인 상태가 되었을 때 어떻게 도와드릴까요?";

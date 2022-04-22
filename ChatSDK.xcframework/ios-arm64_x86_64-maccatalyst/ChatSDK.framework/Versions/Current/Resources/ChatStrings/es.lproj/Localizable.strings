@@ -1,4 +1,5 @@
 "ios.conversation.ui.chat.handover.message.selection" = "Chatear con un agente";
+"ios.conversation.ui.chat.message.unable_to_determine_availability" = "Hola. Lamentablemente, no podemos determinar si hay un agente disponible.";
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "Recibimos su mensaje y nos pondremos en contacto con usted a la mayor brevedad.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "Para poder contactarlo cuando haya alguien disponible, necesito más información.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "¿En qué podemos ayudarle cuando estemos conectados otra vez?";

@@ -1,4 +1,5 @@
 "ios.conversation.ui.chat.handover.message.selection" = "Bir temsilciyle sohbet edin";
+"ios.conversation.ui.chat.message.unable_to_determine_availability" = "Merhaba. Maalesef müsait bir temsilci olup olmadığını belirleyemiyoruz.";
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "Mesajınızı aldık ve size en kısa sürede döneceğiz.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "Müsait biri olduğu zaman sizinle iletişime geçmek için biraz bilgiye gereksinimim var.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "Yeniden çevrimiçi olduğumuzda size hangi konuda yardımcı olabilirim?";

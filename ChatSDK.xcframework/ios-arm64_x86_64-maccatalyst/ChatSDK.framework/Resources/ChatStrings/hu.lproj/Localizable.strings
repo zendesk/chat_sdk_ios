@@ -1,4 +1,5 @@
 "ios.conversation.ui.chat.handover.message.selection" = "Csevegés egy munkatárssal";
+"ios.conversation.ui.chat.message.unable_to_determine_availability" = "Üdvözöljük. Sajnos nem tudjuk megállapítani, hogy van-e elérhető munkatárs.";
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "Megkaptuk az üzenetét, és amint lehet, válaszolunk Önnek.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "Szükségem van néhány további információra ahhoz, hogy online állapotú munkatársunk felvehesse Önnel a kapcsolatot.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "Miben segíthetünk Önnek, ha munkatársaink ismét online állapotban lesznek?";

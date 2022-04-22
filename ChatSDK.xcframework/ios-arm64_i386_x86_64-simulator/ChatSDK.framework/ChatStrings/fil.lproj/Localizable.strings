@@ -1,4 +1,5 @@
 "ios.conversation.ui.chat.handover.message.selection" = "Makipag-chat sa isang agent";
+"ios.conversation.ui.chat.message.unable_to_determine_availability" = "Hi. Unfortunately we are unable to determine if an agent is available.";
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "Natanggap namin ang mensahe mo at sasagutin namin ito sa lalong madaling panahon.";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "Para makontak ka kapag may isang tao nang available, kailangan ko ng ilang impormasyon.";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "Anong maitutulong namin sa iyo kapag online na ulit kami?";

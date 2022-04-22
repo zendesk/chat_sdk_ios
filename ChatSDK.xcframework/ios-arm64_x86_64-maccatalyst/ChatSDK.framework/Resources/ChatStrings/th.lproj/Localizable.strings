@@ -1,4 +1,5 @@
 "ios.conversation.ui.chat.handover.message.selection" = "แชทกับเจ้าหน้าที่";
+"ios.conversation.ui.chat.message.unable_to_determine_availability" = "สวัสดี ขออภัย เราไม่สามารถระบุได้ว่าเจ้าหน้าที่พร้อมให้บริการหรือไม่";
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "เราได้รับข้อความของคุณแล้วและจะติดต่อกลับถึงคุณโดยเร็วที่สุด";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "ฉันต้องการข้อมูลเพิ่มเติมในการติดต่อคุณเมื่อมีเจ้าหน้าที่พร้อมให้บริการ";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "เมื่อเรากลับมาออนไลน์ คุณต้องการให้เราช่วยเหลืออย่างไรบ้าง";

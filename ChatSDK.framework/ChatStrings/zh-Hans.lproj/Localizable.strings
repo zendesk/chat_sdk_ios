@@ -1,4 +1,5 @@
 "ios.conversation.ui.chat.handover.message.selection" = "与专员在线交谈";
+"ios.conversation.ui.chat.message.unable_to_determine_availability" = "嗨。很遗憾，我们无法确定专员是否有空。";
 "ios.conversation.ui.chat.offline_form.completion_acknowledgement" = "我们已收到您的消息，将尽快回复您。";
 "ios.conversation.ui.chat.offline_form.introduction_message" = "为了在找到有空的专员时联系您，我需要更多信息。";
 "ios.conversation.ui.chat.offline_form.message__field_prompt" = "当我们重新回到在线状态时，可以帮您什么忙？";
