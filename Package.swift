@@ -3,7 +3,7 @@ import PackageDescription
 let package = Package(
     name: "ZendeskChatSDK",
     platforms: [
-        .iOS(.v11)
+        .iOS(.v12)
     ],
     products: [
         .library(
@@ -16,10 +16,10 @@ let package = Package(
     dependencies: [
         .package(name: "ZendeskChatProvidersSDK",
                  url: "https://github.com/zendesk/chat_providers_sdk_ios",
-                 .exact("4.0.1")),
+                 .exact("5.0.0")),
         .package(name: "ZendeskMessagingSDK",
                  url: "https://github.com/zendesk/messaging_sdk_ios",
-                 .exact("5.0.0"))
+                 .exact("6.0.0"))
     ],
     targets: [
         .binaryTarget(
