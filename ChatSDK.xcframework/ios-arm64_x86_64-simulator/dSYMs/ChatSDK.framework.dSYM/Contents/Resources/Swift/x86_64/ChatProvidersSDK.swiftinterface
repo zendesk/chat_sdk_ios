@@ -1,12 +1,15 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ChatProvidersSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import ChatProvidersSDK
 import CommonCrypto
 import Foundation
 import Swift
 import SystemConfiguration
 import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
 import os
 extension Foundation.Date {
   public var iso8601: Swift.String {
@@ -51,8 +54,8 @@ extension Foundation.Date {
     @objc get
   }
   @objc deinit
-  final public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers @objc(ZDKConnectionProvider) final public class ConnectionProvider : ObjectiveC.NSObject {
   @objc final public var status: ChatProvidersSDK.ConnectionStatus {
@@ -84,17 +87,17 @@ extension Foundation.Date {
 }
 extension ChatProvidersSDK.ProfileProvider {
   @available(swift, obsoleted: 1.0)
-  @objc final public func setVisitorInfo(_ visitorInfo: ChatProvidersSDK.VisitorInfo, completion: ((ChatProvidersSDK.VisitorInfo?, Swift.Error?) -> Swift.Void)?)
+  @objc final public func setVisitorInfo(_ visitorInfo: ChatProvidersSDK.VisitorInfo, completion: ((ChatProvidersSDK.VisitorInfo?, (any Swift.Error)?) -> Swift.Void)?)
   @available(swift, obsoleted: 1.0)
-  @objc final public func trackVisitorPath(_ visitorPath: ChatProvidersSDK.VisitorPath, completion: ((ChatProvidersSDK.VisitorPath?, Swift.Error?) -> Swift.Void)?)
+  @objc final public func trackVisitorPath(_ visitorPath: ChatProvidersSDK.VisitorPath, completion: ((ChatProvidersSDK.VisitorPath?, (any Swift.Error)?) -> Swift.Void)?)
   @available(swift, obsoleted: 1.0)
-  @objc final public func addTags(_ tags: [Swift.String], completion: (([Swift.String]?, Swift.Error?) -> Swift.Void)?)
+  @objc final public func addTags(_ tags: [Swift.String], completion: (([Swift.String]?, (any Swift.Error)?) -> Swift.Void)?)
   @available(swift, obsoleted: 1.0)
-  @objc final public func removeTags(_ tags: [Swift.String], completion: (([Swift.String]?, Swift.Error?) -> Swift.Void)?)
+  @objc final public func removeTags(_ tags: [Swift.String], completion: (([Swift.String]?, (any Swift.Error)?) -> Swift.Void)?)
   @available(swift, obsoleted: 1.0)
-  @objc final public func appendNote(_ note: Swift.String, completion: ((Swift.String?, Swift.Error?) -> Swift.Void)?)
+  @objc final public func appendNote(_ note: Swift.String, completion: ((Swift.String?, (any Swift.Error)?) -> Swift.Void)?)
   @available(swift, obsoleted: 1.0)
-  @objc final public func setNote(_ note: Swift.String, completion: ((Swift.String?, Swift.Error?) -> Swift.Void)?)
+  @objc final public func setNote(_ note: Swift.String, completion: ((Swift.String?, (any Swift.Error)?) -> Swift.Void)?)
   @available(swift, obsoleted: 1.0)
   @objc final public func observeVisitorInfo(_ completion: @escaping (ChatProvidersSDK.VisitorInfo) -> Swift.Void) -> ChatProvidersSDK.ObservationToken
   @available(swift, obsoleted: 1.0)
@@ -199,13 +202,13 @@ extension ChatProvidersSDK.ChatMemberJoin {
   }
 }
 @_hasMissingDesignatedInitializers @objc(ZDKChatAccountProvider) final public class AccountProvider : ObjectiveC.NSObject {
-  final public func getAccount(_ completion: @escaping (Swift.Result<ChatProvidersSDK.Account, Swift.Error>) -> Swift.Void)
+  final public func getAccount(_ completion: @escaping (Swift.Result<ChatProvidersSDK.Account, any Swift.Error>) -> Swift.Void)
   final public func observeAccount(identifier: ChatProvidersSDK.ObservableIdentifier = .uuid(), _ completion: @escaping (ChatProvidersSDK.Account) -> Swift.Void) -> ChatProvidersSDK.ObservationToken
   @objc deinit
 }
 @objc extension ChatProvidersSDK.AccountProvider {
   @objc @available(swift, obsoleted: 1.0)
-  final public func getAccount(_ completion: @escaping ((ChatProvidersSDK.Account?, Swift.Error?) -> Swift.Void))
+  final public func getAccount(_ completion: @escaping ((ChatProvidersSDK.Account?, (any Swift.Error)?) -> Swift.Void))
   @objc @available(swift, obsoleted: 1.0)
   final public func observeAccount(identifier: Swift.String, _ completion: @escaping (ChatProvidersSDK.Account) -> Swift.Void) -> ChatProvidersSDK.ObservationToken
   @objc @available(swift, obsoleted: 1.0)
@@ -361,8 +364,8 @@ extension ChatProvidersSDK.ChatMessage {
   @objc convenience public init(id: Swift.String, name: Swift.String, departmentStatus: ChatProvidersSDK.ZDKDepartmentStatus)
   @objc override final public func isEqual(_ object: Any?) -> Swift.Bool
   @objc deinit
-  final public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension ChatProvidersSDK.Department {
   @objc override final public var description: Swift.String {
@@ -479,11 +482,11 @@ extension ChatProvidersSDK.ChatLog {
     @objc get
   }
   @objc deinit
-  final public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @objc(ZDKJWTAuthenticator) public protocol JWTAuthenticator : ObjectiveC.NSObjectProtocol {
-  @objc func getToken(_ completion: @escaping (Swift.String?, Swift.Error?) -> Swift.Void)
+  @objc func getToken(_ completion: @escaping (Swift.String?, (any Swift.Error)?) -> Swift.Void)
 }
 extension Foundation.Date {
   public static func date(timeIntervalSince1970InMiliseconds: Foundation.TimeInterval) -> Foundation.Date
@@ -538,8 +541,8 @@ extension ChatProvidersSDK.ChatRating {
     @objc get
   }
   @objc deinit
-  final public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @objc(ZDKVisitorPath) final public class VisitorPath : ObjectiveC.NSObject {
   @objc final public let title: Swift.String
@@ -552,8 +555,8 @@ extension ChatProvidersSDK.ChatRating {
     @objc get
   }
   @objc deinit
-  final public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers @objc(ZDKRatingRequest) final public class ChatRatingRequest : ChatProvidersSDK.ChatLog {
   @objc override final public func isEqual(_ object: Any?) -> Swift.Bool
@@ -583,8 +586,8 @@ extension ChatProvidersSDK.ChatRatingRequest {
     @objc get
   }
   @objc deinit
-  final public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers @objc(ZDKChat) final public class Chat : ObjectiveC.NSObject, ChatProvidersSDK.Loggable {
   @objc public static let NotificationMessageReceived: Foundation.NSNotification.Name
@@ -651,7 +654,7 @@ extension ChatProvidersSDK.ChatRatingRequest {
   @available(swift, obsoleted: 1.0)
   @objc final public class func initialize(accountKey: Swift.String, queue: Dispatch.DispatchQueue = .main)
   @objc final public func clearCache()
-  @objc final public func setIdentity(authenticator: ChatProvidersSDK.JWTAuthenticator)
+  @objc final public func setIdentity(authenticator: any ChatProvidersSDK.JWTAuthenticator)
   @objc final public func resetIdentity(_ completion: (() -> Swift.Void)? = nil)
   @available(*, deprecated, message: "Please use `resetIdentity(_ completion: (() -> Void)?)` instead")
   @objc final public func resetIdentity()
@@ -689,7 +692,7 @@ public enum AuthenticationError : Foundation.LocalizedError, Foundation.CustomNS
   case externalUserIdHasChanged(Swift.String)
   case internalServerError
   case internalError
-  case networkError(Swift.Error)
+  case networkError(any Swift.Error)
   public var errorDomain: Swift.String {
     get
   }
@@ -749,8 +752,8 @@ extension ChatProvidersSDK.VisitorPath {
     @objc get
   }
   @objc deinit
-  final public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers @objc(ZDKChatAttachmentMessage) final public class ChatAttachmentMessage : ChatProvidersSDK.ChatLog {
   @objc final public let message: Swift.String
@@ -777,16 +780,16 @@ extension ChatProvidersSDK.OfflineForm {
   }
   @available(*, deprecated, message: "This API is no longer supported")
   @objc final public func requestChat()
-  final public func getChatInfo(_ completion: @escaping (Swift.Result<ChatProvidersSDK.ChatInfo, Swift.Error>) -> Swift.Void)
+  final public func getChatInfo(_ completion: @escaping (Swift.Result<ChatProvidersSDK.ChatInfo, any Swift.Error>) -> Swift.Void)
   final public func setDepartment(_ name: Swift.String?, completion: ((Swift.Result<Swift.String?, ChatProvidersSDK.DeliveryStatusError>) -> Swift.Void)? = nil)
   final public func setDepartmentByIdentifier(_ id: Swift.String?, completion: ((Swift.Result<Swift.String?, ChatProvidersSDK.DeliveryStatusError>) -> Swift.Void)? = nil)
   @objc final public func sendTyping(isTyping: Swift.Bool)
   final public func sendOfflineForm(_ offlineForm: ChatProvidersSDK.OfflineForm, completion: ((Swift.Result<ChatProvidersSDK.OfflineForm, ChatProvidersSDK.DeliveryStatusError>) -> Swift.Void)? = nil)
   final public func sendMessage(_ message: Swift.String, completion: ((Swift.Result<Swift.String, ChatProvidersSDK.DeliveryStatusError>) -> Swift.Void)? = nil)
-  final public func resendFailedMessage(withId id: Swift.String, completion: ((Swift.Result<Swift.String, Swift.Error>) -> Swift.Void)? = nil)
-  final public func deleteFailedMessage(withId id: Swift.String, completion: ((Swift.Result<Swift.String, Swift.Error>) -> Swift.Void)? = nil)
+  final public func resendFailedMessage(withId id: Swift.String, completion: ((Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)? = nil)
+  final public func deleteFailedMessage(withId id: Swift.String, completion: ((Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)? = nil)
   final public func sendFile(url: Foundation.URL, onProgress: ((Swift.Double) -> Swift.Void)? = nil, completion: ((Swift.Result<ChatProvidersSDK.ChatAttachmentMessage, ChatProvidersSDK.DeliveryStatusError>) -> Swift.Void)? = nil)
-  final public func resendFailedFile(withId id: Swift.String, onProgress: ((Swift.Double) -> Swift.Void)? = nil, completion: ((Swift.Result<Swift.String, Swift.Error>) -> Swift.Void)? = nil)
+  final public func resendFailedFile(withId id: Swift.String, onProgress: ((Swift.Double) -> Swift.Void)? = nil, completion: ((Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)? = nil)
   final public func sendChatRating(_ rating: ChatProvidersSDK.Rating, completion: ((Swift.Result<ChatProvidersSDK.Rating, ChatProvidersSDK.DeliveryStatusError>) -> Swift.Void)? = nil)
   final public func sendChatComment(_ comment: Swift.String, completion: ((Swift.Result<Swift.String, ChatProvidersSDK.DeliveryStatusError>) -> Swift.Void)? = nil)
   final public func sendEmailTranscript(_ email: Swift.String, completion: ((Swift.Result<Swift.String, ChatProvidersSDK.DeliveryStatusError>) -> Swift.Void)? = nil)
@@ -796,31 +799,31 @@ extension ChatProvidersSDK.OfflineForm {
 }
 @objc(ZDKChatProvider) extension ChatProvidersSDK.ChatProvider {
   @available(swift, obsoleted: 1.0)
-  @objc final public func getChatInfo(_ completion: @escaping ((ChatProvidersSDK.ChatInfo?, Swift.Error?) -> Swift.Void))
+  @objc final public func getChatInfo(_ completion: @escaping ((ChatProvidersSDK.ChatInfo?, (any Swift.Error)?) -> Swift.Void))
   @objc @available(swift, obsoleted: 1.0)
-  final public func setDepartment(_ name: Swift.String?, completion: ((Swift.String?, Swift.Error?) -> Swift.Void)?)
+  final public func setDepartment(_ name: Swift.String?, completion: ((Swift.String?, (any Swift.Error)?) -> Swift.Void)?)
   @available(swift, obsoleted: 1.0)
-  @objc(setDepartment:_:) final public func setDepartment(_ id: Swift.String, completion: ((Swift.String?, Swift.Error?) -> Swift.Void)?)
+  @objc(setDepartment:_:) final public func setDepartment(_ id: Swift.String, completion: ((Swift.String?, (any Swift.Error)?) -> Swift.Void)?)
   @available(swift, obsoleted: 1.0)
-  @objc final public func sendMessage(_ message: Swift.String, completion: ((Swift.String?, Swift.Error?) -> Swift.Void)?)
+  @objc final public func sendMessage(_ message: Swift.String, completion: ((Swift.String?, (any Swift.Error)?) -> Swift.Void)?)
   @available(swift, obsoleted: 1.0)
-  @objc final public func sendOfflineForm(_ offlineForm: ChatProvidersSDK.OfflineForm, completion: ((ChatProvidersSDK.OfflineForm?, Swift.Error?) -> Swift.Void)?)
+  @objc final public func sendOfflineForm(_ offlineForm: ChatProvidersSDK.OfflineForm, completion: ((ChatProvidersSDK.OfflineForm?, (any Swift.Error)?) -> Swift.Void)?)
   @available(swift, obsoleted: 1.0)
-  @objc final public func resendFailedMessage(withId id: Swift.String, completion: ((Swift.String?, Swift.Error?) -> Swift.Void)?)
+  @objc final public func resendFailedMessage(withId id: Swift.String, completion: ((Swift.String?, (any Swift.Error)?) -> Swift.Void)?)
   @available(swift, obsoleted: 1.0)
-  @objc final public func deleteFailedMessage(withId id: Swift.String, completion: ((Swift.String?, Swift.Error?) -> Swift.Void)?)
+  @objc final public func deleteFailedMessage(withId id: Swift.String, completion: ((Swift.String?, (any Swift.Error)?) -> Swift.Void)?)
   @available(swift, obsoleted: 1.0)
-  @objc final public func sendFile(url: Foundation.URL, onProgress: ((Swift.Double) -> Swift.Void)? = nil, completion: ((Swift.String?, ChatProvidersSDK.ChatAttachmentMessage?, Swift.Error?) -> Swift.Void)?)
+  @objc final public func sendFile(url: Foundation.URL, onProgress: ((Swift.Double) -> Swift.Void)? = nil, completion: ((Swift.String?, ChatProvidersSDK.ChatAttachmentMessage?, (any Swift.Error)?) -> Swift.Void)?)
   @available(swift, obsoleted: 1.0)
-  @objc final public func resendFailedFile(withId id: Swift.String, onProgress: ((Swift.Double) -> Swift.Void)? = nil, completion: ((Swift.String?, Swift.Error?) -> Swift.Void)? = nil)
+  @objc final public func resendFailedFile(withId id: Swift.String, onProgress: ((Swift.Double) -> Swift.Void)? = nil, completion: ((Swift.String?, (any Swift.Error)?) -> Swift.Void)? = nil)
   @available(swift, obsoleted: 1.0)
-  @objc final public func sendChatRating(_ rating: ChatProvidersSDK.ZDKRating, completion: ((ChatProvidersSDK.ZDKRating, Swift.Error?) -> Swift.Void)? = nil)
+  @objc final public func sendChatRating(_ rating: ChatProvidersSDK.ZDKRating, completion: ((ChatProvidersSDK.ZDKRating, (any Swift.Error)?) -> Swift.Void)? = nil)
   @available(swift, obsoleted: 1.0)
-  @objc final public func sendChatComment(_ comment: Swift.String, completion: ((Swift.String?, Swift.Error?) -> Swift.Void)? = nil)
+  @objc final public func sendChatComment(_ comment: Swift.String, completion: ((Swift.String?, (any Swift.Error)?) -> Swift.Void)? = nil)
   @available(swift, obsoleted: 1.0)
-  @objc final public func sendEmailTranscript(_ email: Swift.String, completion: ((Swift.String?, Swift.Error?) -> Swift.Void)? = nil)
+  @objc final public func sendEmailTranscript(_ email: Swift.String, completion: ((Swift.String?, (any Swift.Error)?) -> Swift.Void)? = nil)
   @available(swift, obsoleted: 1.0)
-  @objc final public func endChat(_ completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)?)
+  @objc final public func endChat(_ completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)?)
   @available(swift, obsoleted: 1.0)
   @objc final public func observeChatState(identifier: Swift.String, _ completion: @escaping (ChatProvidersSDK.ChatState) -> Swift.Void) -> ChatProvidersSDK.ObservationToken
   @available(swift, obsoleted: 1.0)
@@ -955,44 +958,44 @@ public enum DeliveryStatusError : Swift.Error, Swift.Hashable {
   }
 }
 public protocol Log {
-  func logit(file: Swift.StaticString, line: Swift.Int, function: Swift.StaticString, level: ChatProvidersSDK.LogLevel, error: Swift.Error?, msg: Swift.String, args: [Swift.CVarArg])
+  func logit(file: Swift.StaticString, line: Swift.Int, function: Swift.StaticString, level: ChatProvidersSDK.LogLevel, error: (any Swift.Error)?, msg: Swift.String, args: [any Swift.CVarArg])
 }
 extension ChatProvidersSDK.Log {
-  public func logit(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, logLevel: ChatProvidersSDK.LogLevel, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
-  public func i(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
-  public func v(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
-  public func d(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
-  public func w(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
-  public func e(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
+  public func logit(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, logLevel: ChatProvidersSDK.LogLevel, error: (any Swift.Error)? = nil, _ msg: Swift.String, _ args: any Swift.CVarArg...)
+  public func i(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: (any Swift.Error)? = nil, _ msg: Swift.String, _ args: any Swift.CVarArg...)
+  public func v(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: (any Swift.Error)? = nil, _ msg: Swift.String, _ args: any Swift.CVarArg...)
+  public func d(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: (any Swift.Error)? = nil, _ msg: Swift.String, _ args: any Swift.CVarArg...)
+  public func w(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: (any Swift.Error)? = nil, _ msg: Swift.String, _ args: any Swift.CVarArg...)
+  public func e(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: (any Swift.Error)? = nil, _ msg: Swift.String, _ args: any Swift.CVarArg...)
 }
 extension ChatProvidersSDK.Log {
-  public func debugI(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
-  public func debugV(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
-  public func debugD(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
-  public func debugW(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
-  public func debugE(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: Swift.Error? = nil, _ msg: Swift.String, _ args: Swift.CVarArg...)
+  public func debugI(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: (any Swift.Error)? = nil, _ msg: Swift.String, _ args: any Swift.CVarArg...)
+  public func debugV(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: (any Swift.Error)? = nil, _ msg: Swift.String, _ args: any Swift.CVarArg...)
+  public func debugD(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: (any Swift.Error)? = nil, _ msg: Swift.String, _ args: any Swift.CVarArg...)
+  public func debugW(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: (any Swift.Error)? = nil, _ msg: Swift.String, _ args: any Swift.CVarArg...)
+  public func debugE(file: Swift.StaticString = #filePath, line: Swift.Int = #line, function: Swift.StaticString = #function, error: (any Swift.Error)? = nil, _ msg: Swift.String, _ args: any Swift.CVarArg...)
 }
 public protocol LoggerFactory {
-  func getLoggerFor(namespace: Swift.String, andClass clazz: Any) -> ChatProvidersSDK.Log
+  func getLoggerFor(namespace: Swift.String, andClass clazz: Any) -> any ChatProvidersSDK.Log
   func setDefault(level: ChatProvidersSDK.LogLevel)
 }
 @_inheritsConvenienceInitializers @objc(ZDKChatLogger) final public class Logger : ObjectiveC.NSObject {
   @objc public static var defaultLevel: ChatProvidersSDK.LogLevel
   @objc public static var isEnabled: Swift.Bool
-  public static func setFactory(factory: ChatProvidersSDK.LoggerFactory)
-  public static func getLogger(namespace: Swift.String, for clazz: Any) -> ChatProvidersSDK.Log
+  public static func setFactory(factory: any ChatProvidersSDK.LoggerFactory)
+  public static func getLogger(namespace: Swift.String, for clazz: Any) -> any ChatProvidersSDK.Log
   @objc override dynamic public init()
   @objc deinit
 }
 public protocol Loggable : AnyObject {
-  static var log: ChatProvidersSDK.Log { get }
-  var log: ChatProvidersSDK.Log { get }
+  static var log: any ChatProvidersSDK.Log { get }
+  var log: any ChatProvidersSDK.Log { get }
 }
 extension ChatProvidersSDK.Loggable {
-  public static var log: ChatProvidersSDK.Log {
+  public static var log: any ChatProvidersSDK.Log {
     get
   }
-  public var log: ChatProvidersSDK.Log {
+  public var log: any ChatProvidersSDK.Log {
     get
   }
 }
@@ -1003,7 +1006,7 @@ public struct DebugLogger {
 }
 extension ChatProvidersSDK.DebugLogger : ChatProvidersSDK.Log {
   public init(namespace: Swift.String, for clazz: Any, withLevel level: ChatProvidersSDK.LogLevel)
-  public func logit(file: Swift.StaticString, line: Swift.Int, function: Swift.StaticString, level: ChatProvidersSDK.LogLevel, error: Swift.Error?, msg: Swift.String, args: [Swift.CVarArg])
+  public func logit(file: Swift.StaticString, line: Swift.Int, function: Swift.StaticString, level: ChatProvidersSDK.LogLevel, error: (any Swift.Error)?, msg: Swift.String, args: [any Swift.CVarArg])
 }
 public enum MimeUtils {
   public static func hasMimeType(_ mimeType: Swift.String) -> Swift.Bool
@@ -1016,8 +1019,8 @@ public enum MimeUtils {
   public init(wrappedValue: Swift.String)
 }
 extension ChatProvidersSDK.DecodeAsString : Swift.Codable {
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public protocol ChatForm {
   var visitorInfo: ChatProvidersSDK.VisitorInfo? { get }
