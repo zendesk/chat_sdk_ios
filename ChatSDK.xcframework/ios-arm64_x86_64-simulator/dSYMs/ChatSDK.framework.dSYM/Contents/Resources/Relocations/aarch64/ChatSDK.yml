@@ -4,48 +4,48 @@ binary-path:     '/Users/admin/Library/Developer/Xcode/DerivedData/MobileSDKs-cw
 relocations:
   - { offsetInCU: 0x34, offset: 0x5599B, size: 0x8, addend: 0x0, symName: _ChatSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x2D0C0, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x559D0, size: 0x8, addend: 0x0, symName: _ChatSDKVersionNumber, symObjAddr: 0x28, symBinAddr: 0x2D0E8, symSize: 0x0 }
-  - { offsetInCU: 0x4F, offset: 0x55A35, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO8engineIdSSvpZ', symObjAddr: 0x16800, symBinAddr: 0x3B788, symSize: 0x0 }
+  - { offsetInCU: 0x4F, offset: 0x55A35, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO8engineIdSSvpZ', symObjAddr: 0x167F0, symBinAddr: 0x3B788, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x55A4F, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO10bundlePath33_5640927DE6A51AA94C9624E0F34E6DB4LLSSvpZ', symObjAddr: 0x4080, symBinAddr: 0x3A530, symSize: 0x0 }
   - { offsetInCU: 0x83, offset: 0x55A69, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO11bundleUtils33_5640927DE6A51AA94C9624E0F34E6DB4LLAA06BundleE0CvpZ', symObjAddr: 0x4098, symBinAddr: 0x3A548, symSize: 0x0 }
   - { offsetInCU: 0x3B1, offset: 0x55D97, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK11BundleUtilsC6string3for4with12defaultValue7commentS2S_s7CVarArg_pS2StFTf4nennn_nSS_Tg5', symObjAddr: 0x37EC, symBinAddr: 0x5450, symSize: 0x1F0 }
   - { offsetInCU: 0x542, offset: 0x55F28, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK11BundleUtilsC6string3for4with12defaultValue7commentS2S_s7CVarArg_pS2StFTf4nennn_nSi_Tg5', symObjAddr: 0x39DC, symBinAddr: 0x5640, symSize: 0x1D8 }
-  - { offsetInCU: 0x6F0, offset: 0x560D6, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO13handoverLabelSSvpZ', symObjAddr: 0x16810, symBinAddr: 0x3B798, symSize: 0x0 }
-  - { offsetInCU: 0x70A, offset: 0x560F0, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03endA5TitleSSvpZ', symObjAddr: 0x16820, symBinAddr: 0x3B7A8, symSize: 0x0 }
-  - { offsetInCU: 0x724, offset: 0x5610A, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO22chatEndedSystemMessageSSvpZ', symObjAddr: 0x16830, symBinAddr: 0x3B7B8, symSize: 0x0 }
-  - { offsetInCU: 0x73E, offset: 0x56124, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA21FormInfoMessagePromptSSvpZ', symObjAddr: 0x16840, symBinAddr: 0x3B7C8, symSize: 0x0 }
-  - { offsetInCU: 0x758, offset: 0x5613E, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA18FormMoreInfoPromptSSvpZ', symObjAddr: 0x16850, symBinAddr: 0x3B7D8, symSize: 0x0 }
-  - { offsetInCU: 0x772, offset: 0x56158, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA19FormHandoverMessageSSvpZ', symObjAddr: 0x16860, symBinAddr: 0x3B7E8, symSize: 0x0 }
-  - { offsetInCU: 0x78C, offset: 0x56172, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA17NameMessagePromptSSvpZ', symObjAddr: 0x16870, symBinAddr: 0x3B7F8, symSize: 0x0 }
-  - { offsetInCU: 0x7A6, offset: 0x5618C, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA16NameComposerHintSSvpZ', symObjAddr: 0x16880, symBinAddr: 0x3B808, symSize: 0x0 }
-  - { offsetInCU: 0x7C0, offset: 0x561A6, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA18EmailMessagePromptSSvpZ', symObjAddr: 0x16890, symBinAddr: 0x3B818, symSize: 0x0 }
-  - { offsetInCU: 0x7DA, offset: 0x561C0, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA17EmailComposerHintSSvpZ', symObjAddr: 0x168A0, symBinAddr: 0x3B828, symSize: 0x0 }
-  - { offsetInCU: 0x7F4, offset: 0x561DA, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA28EmailValidationFailedMessageSSvpZ', symObjAddr: 0x168B0, symBinAddr: 0x3B838, symSize: 0x0 }
-  - { offsetInCU: 0x80E, offset: 0x561F4, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA24PhoneNumberMessagePromptSSvpZ', symObjAddr: 0x168C0, symBinAddr: 0x3B848, symSize: 0x0 }
-  - { offsetInCU: 0x828, offset: 0x5620E, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA23PhoneNumberComposerHintSSvpZ', symObjAddr: 0x168D0, symBinAddr: 0x3B858, symSize: 0x0 }
-  - { offsetInCU: 0x842, offset: 0x56228, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA15SkipButtonLabelSSvpZ', symObjAddr: 0x168E0, symBinAddr: 0x3B868, symSize: 0x0 }
-  - { offsetInCU: 0x85C, offset: 0x56242, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA23DepartmentMessagePromptSSvpZ', symObjAddr: 0x168F0, symBinAddr: 0x3B878, symSize: 0x0 }
-  - { offsetInCU: 0x876, offset: 0x5625C, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA15ThankYouMessageSSvpZ', symObjAddr: 0x16900, symBinAddr: 0x3B888, symSize: 0x0 }
-  - { offsetInCU: 0x890, offset: 0x56276, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO20leaveACommentMessageSSvpZ', symObjAddr: 0x16910, symBinAddr: 0x3B898, symSize: 0x0 }
-  - { offsetInCU: 0x8AA, offset: 0x56290, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO16addACommentLabelSSvpZ', symObjAddr: 0x16920, symBinAddr: 0x3B8A8, symSize: 0x0 }
-  - { offsetInCU: 0x8C4, offset: 0x562AA, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO26chatAcknowledgementMessageSSvpZ', symObjAddr: 0x16930, symBinAddr: 0x3B8B8, symSize: 0x0 }
-  - { offsetInCU: 0x8DE, offset: 0x562C4, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO24typeACommentComposerHintSSvpZ', symObjAddr: 0x16940, symBinAddr: 0x3B8C8, symSize: 0x0 }
-  - { offsetInCU: 0x8F8, offset: 0x562DE, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO15goodRatingLabelSSvpZ', symObjAddr: 0x16950, symBinAddr: 0x3B8D8, symSize: 0x0 }
-  - { offsetInCU: 0x912, offset: 0x562F8, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO14badRatingLabelSSvpZ', symObjAddr: 0x16960, symBinAddr: 0x3B8E8, symSize: 0x0 }
-  - { offsetInCU: 0x92C, offset: 0x56312, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO22requestTranscriptTitleSSvpZ', symObjAddr: 0x16970, symBinAddr: 0x3B8F8, symSize: 0x0 }
-  - { offsetInCU: 0x946, offset: 0x5632C, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO23requestTranscriptPromptSSvpZ', symObjAddr: 0x16980, symBinAddr: 0x3B908, symSize: 0x0 }
-  - { offsetInCU: 0x960, offset: 0x56346, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO18requestEmailPromptSSvpZ', symObjAddr: 0x16990, symBinAddr: 0x3B918, symSize: 0x0 }
-  - { offsetInCU: 0x97A, offset: 0x56360, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO18invalidEmailPromptSSvpZ', symObjAddr: 0x169A0, symBinAddr: 0x3B928, symSize: 0x0 }
-  - { offsetInCU: 0x994, offset: 0x5637A, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO6cancelSSvpZ', symObjAddr: 0x169B0, symBinAddr: 0x3B938, symSize: 0x0 }
-  - { offsetInCU: 0x9AE, offset: 0x56394, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO2noSSvpZ', symObjAddr: 0x169C0, symBinAddr: 0x3B948, symSize: 0x0 }
-  - { offsetInCU: 0x9C8, offset: 0x563AE, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO3yesSSvpZ', symObjAddr: 0x169D0, symBinAddr: 0x3B958, symSize: 0x0 }
-  - { offsetInCU: 0x9E2, offset: 0x563C8, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO4sendSSvpZ', symObjAddr: 0x169E0, symBinAddr: 0x3B968, symSize: 0x0 }
-  - { offsetInCU: 0x9FC, offset: 0x563E2, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO16emailPlaceholderSSvpZ', symObjAddr: 0x169F0, symBinAddr: 0x3B978, symSize: 0x0 }
-  - { offsetInCU: 0xA16, offset: 0x563FC, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO11OfflineFormO14offlineMessageSSvpZ', symObjAddr: 0x16A00, symBinAddr: 0x3B988, symSize: 0x0 }
-  - { offsetInCU: 0xA30, offset: 0x56416, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO11OfflineFormO14welcomeMessageSSvpZ', symObjAddr: 0x16A10, symBinAddr: 0x3B998, symSize: 0x0 }
-  - { offsetInCU: 0xA4A, offset: 0x56430, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO11OfflineFormO21offlineWelcomeMessageSSvpZ', symObjAddr: 0x16A20, symBinAddr: 0x3B9A8, symSize: 0x0 }
-  - { offsetInCU: 0xA64, offset: 0x5644A, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO11OfflineFormO13welcomePromptSSvpZ', symObjAddr: 0x16A30, symBinAddr: 0x3B9B8, symSize: 0x0 }
-  - { offsetInCU: 0xA7E, offset: 0x56464, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO11OfflineFormO17visitorInfoPromptSSvpZ', symObjAddr: 0x16A40, symBinAddr: 0x3B9C8, symSize: 0x0 }
-  - { offsetInCU: 0xA98, offset: 0x5647E, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO11OfflineFormO17completionMessageSSvpZ', symObjAddr: 0x16A50, symBinAddr: 0x3B9D8, symSize: 0x0 }
+  - { offsetInCU: 0x6F0, offset: 0x560D6, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO13handoverLabelSSvpZ', symObjAddr: 0x16800, symBinAddr: 0x3B798, symSize: 0x0 }
+  - { offsetInCU: 0x70A, offset: 0x560F0, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03endA5TitleSSvpZ', symObjAddr: 0x16810, symBinAddr: 0x3B7A8, symSize: 0x0 }
+  - { offsetInCU: 0x724, offset: 0x5610A, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO22chatEndedSystemMessageSSvpZ', symObjAddr: 0x16820, symBinAddr: 0x3B7B8, symSize: 0x0 }
+  - { offsetInCU: 0x73E, offset: 0x56124, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA21FormInfoMessagePromptSSvpZ', symObjAddr: 0x16830, symBinAddr: 0x3B7C8, symSize: 0x0 }
+  - { offsetInCU: 0x758, offset: 0x5613E, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA18FormMoreInfoPromptSSvpZ', symObjAddr: 0x16840, symBinAddr: 0x3B7D8, symSize: 0x0 }
+  - { offsetInCU: 0x772, offset: 0x56158, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA19FormHandoverMessageSSvpZ', symObjAddr: 0x16850, symBinAddr: 0x3B7E8, symSize: 0x0 }
+  - { offsetInCU: 0x78C, offset: 0x56172, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA17NameMessagePromptSSvpZ', symObjAddr: 0x16860, symBinAddr: 0x3B7F8, symSize: 0x0 }
+  - { offsetInCU: 0x7A6, offset: 0x5618C, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA16NameComposerHintSSvpZ', symObjAddr: 0x16870, symBinAddr: 0x3B808, symSize: 0x0 }
+  - { offsetInCU: 0x7C0, offset: 0x561A6, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA18EmailMessagePromptSSvpZ', symObjAddr: 0x16880, symBinAddr: 0x3B818, symSize: 0x0 }
+  - { offsetInCU: 0x7DA, offset: 0x561C0, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA17EmailComposerHintSSvpZ', symObjAddr: 0x16890, symBinAddr: 0x3B828, symSize: 0x0 }
+  - { offsetInCU: 0x7F4, offset: 0x561DA, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA28EmailValidationFailedMessageSSvpZ', symObjAddr: 0x168A0, symBinAddr: 0x3B838, symSize: 0x0 }
+  - { offsetInCU: 0x80E, offset: 0x561F4, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA24PhoneNumberMessagePromptSSvpZ', symObjAddr: 0x168B0, symBinAddr: 0x3B848, symSize: 0x0 }
+  - { offsetInCU: 0x828, offset: 0x5620E, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA23PhoneNumberComposerHintSSvpZ', symObjAddr: 0x168C0, symBinAddr: 0x3B858, symSize: 0x0 }
+  - { offsetInCU: 0x842, offset: 0x56228, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA15SkipButtonLabelSSvpZ', symObjAddr: 0x168D0, symBinAddr: 0x3B868, symSize: 0x0 }
+  - { offsetInCU: 0x85C, offset: 0x56242, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA23DepartmentMessagePromptSSvpZ', symObjAddr: 0x168E0, symBinAddr: 0x3B878, symSize: 0x0 }
+  - { offsetInCU: 0x876, offset: 0x5625C, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO03preA15ThankYouMessageSSvpZ', symObjAddr: 0x168F0, symBinAddr: 0x3B888, symSize: 0x0 }
+  - { offsetInCU: 0x890, offset: 0x56276, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO20leaveACommentMessageSSvpZ', symObjAddr: 0x16900, symBinAddr: 0x3B898, symSize: 0x0 }
+  - { offsetInCU: 0x8AA, offset: 0x56290, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO16addACommentLabelSSvpZ', symObjAddr: 0x16910, symBinAddr: 0x3B8A8, symSize: 0x0 }
+  - { offsetInCU: 0x8C4, offset: 0x562AA, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO26chatAcknowledgementMessageSSvpZ', symObjAddr: 0x16920, symBinAddr: 0x3B8B8, symSize: 0x0 }
+  - { offsetInCU: 0x8DE, offset: 0x562C4, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO24typeACommentComposerHintSSvpZ', symObjAddr: 0x16930, symBinAddr: 0x3B8C8, symSize: 0x0 }
+  - { offsetInCU: 0x8F8, offset: 0x562DE, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO15goodRatingLabelSSvpZ', symObjAddr: 0x16940, symBinAddr: 0x3B8D8, symSize: 0x0 }
+  - { offsetInCU: 0x912, offset: 0x562F8, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO14badRatingLabelSSvpZ', symObjAddr: 0x16950, symBinAddr: 0x3B8E8, symSize: 0x0 }
+  - { offsetInCU: 0x92C, offset: 0x56312, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO22requestTranscriptTitleSSvpZ', symObjAddr: 0x16960, symBinAddr: 0x3B8F8, symSize: 0x0 }
+  - { offsetInCU: 0x946, offset: 0x5632C, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO23requestTranscriptPromptSSvpZ', symObjAddr: 0x16970, symBinAddr: 0x3B908, symSize: 0x0 }
+  - { offsetInCU: 0x960, offset: 0x56346, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO18requestEmailPromptSSvpZ', symObjAddr: 0x16980, symBinAddr: 0x3B918, symSize: 0x0 }
+  - { offsetInCU: 0x97A, offset: 0x56360, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO18invalidEmailPromptSSvpZ', symObjAddr: 0x16990, symBinAddr: 0x3B928, symSize: 0x0 }
+  - { offsetInCU: 0x994, offset: 0x5637A, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO6cancelSSvpZ', symObjAddr: 0x169A0, symBinAddr: 0x3B938, symSize: 0x0 }
+  - { offsetInCU: 0x9AE, offset: 0x56394, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO2noSSvpZ', symObjAddr: 0x169B0, symBinAddr: 0x3B948, symSize: 0x0 }
+  - { offsetInCU: 0x9C8, offset: 0x563AE, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO3yesSSvpZ', symObjAddr: 0x169C0, symBinAddr: 0x3B958, symSize: 0x0 }
+  - { offsetInCU: 0x9E2, offset: 0x563C8, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO4sendSSvpZ', symObjAddr: 0x169D0, symBinAddr: 0x3B968, symSize: 0x0 }
+  - { offsetInCU: 0x9FC, offset: 0x563E2, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO7StringsO16emailPlaceholderSSvpZ', symObjAddr: 0x169E0, symBinAddr: 0x3B978, symSize: 0x0 }
+  - { offsetInCU: 0xA16, offset: 0x563FC, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO11OfflineFormO14offlineMessageSSvpZ', symObjAddr: 0x169F0, symBinAddr: 0x3B988, symSize: 0x0 }
+  - { offsetInCU: 0xA30, offset: 0x56416, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO11OfflineFormO14welcomeMessageSSvpZ', symObjAddr: 0x16A00, symBinAddr: 0x3B998, symSize: 0x0 }
+  - { offsetInCU: 0xA4A, offset: 0x56430, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO11OfflineFormO21offlineWelcomeMessageSSvpZ', symObjAddr: 0x16A10, symBinAddr: 0x3B9A8, symSize: 0x0 }
+  - { offsetInCU: 0xA64, offset: 0x5644A, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO11OfflineFormO13welcomePromptSSvpZ', symObjAddr: 0x16A20, symBinAddr: 0x3B9B8, symSize: 0x0 }
+  - { offsetInCU: 0xA7E, offset: 0x56464, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO11OfflineFormO17visitorInfoPromptSSvpZ', symObjAddr: 0x16A30, symBinAddr: 0x3B9C8, symSize: 0x0 }
+  - { offsetInCU: 0xA98, offset: 0x5647E, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO11OfflineFormO17completionMessageSSvpZ', symObjAddr: 0x16A40, symBinAddr: 0x3B9D8, symSize: 0x0 }
   - { offsetInCU: 0xAA6, offset: 0x5648C, size: 0x8, addend: 0x0, symName: '_$sSo18NSNotificationNameaMa', symObjAddr: 0x0, symBinAddr: 0x1C64, symSize: 0x54 }
   - { offsetInCU: 0xABA, offset: 0x564A0, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO8engineId_WZ', symObjAddr: 0x54, symBinAddr: 0x1CB8, symSize: 0x1C }
   - { offsetInCU: 0xAD4, offset: 0x564BA, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ConstantsO10bundlePath33_5640927DE6A51AA94C9624E0F34E6DB4LL_WZ', symObjAddr: 0x70, symBinAddr: 0x1CD4, symSize: 0x2C }
@@ -289,7 +289,7 @@ relocations:
   - { offsetInCU: 0x6AB, offset: 0x5D9E3, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ErrorType33_50E7EBF49EDA3DB6E1EB314E2B77D797LLOwui', symObjAddr: 0x1AE8, symBinAddr: 0xD704, symSize: 0x10 }
   - { offsetInCU: 0x6BF, offset: 0x5D9F7, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK9ErrorType33_50E7EBF49EDA3DB6E1EB314E2B77D797LLOMr', symObjAddr: 0x1AF8, symBinAddr: 0xD714, symSize: 0x90 }
   - { offsetInCU: 0x6D3, offset: 0x5DA0B, size: 0x8, addend: 0x0, symName: '_$ss6MirrorV12DisplayStyleOSgMa', symObjAddr: 0x1B88, symBinAddr: 0xD7A4, symSize: 0x54 }
-  - { offsetInCU: 0x4B, offset: 0x5DC3D, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK0A17FormConfigurationC07offlineC6ConfigACvpZ', symObjAddr: 0x48B0, symBinAddr: 0x3B9E8, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x5DC3D, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK0A17FormConfigurationC07offlineC6ConfigACvpZ', symObjAddr: 0x4898, symBinAddr: 0x3B9E8, symSize: 0x0 }
   - { offsetInCU: 0xBF, offset: 0x5DCB1, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK0A17FormConfigurationC4name5email11phoneNumber10departmentAcA0C11FieldStatusO_A3ItcfC', symObjAddr: 0x0, symBinAddr: 0xD7F8, symSize: 0x114 }
   - { offsetInCU: 0x123, offset: 0x5DD15, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK0A17FormConfigurationC4nameAA0C11FieldStatusOvM', symObjAddr: 0x250, symBinAddr: 0xDA48, symSize: 0x44 }
   - { offsetInCU: 0x152, offset: 0x5DD44, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK0A17FormConfigurationC5emailAA0C11FieldStatusOvM', symObjAddr: 0x2C4, symBinAddr: 0xDABC, symSize: 0x44 }
@@ -343,8 +343,8 @@ relocations:
   - { offsetInCU: 0x889, offset: 0x5EABD, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK13PromptFactoryV0C5ErrorOs0E0AAsAFP9_userInfoyXlSgvgTW', symObjAddr: 0x8, symBinAddr: 0xE22C, symSize: 0x4 }
   - { offsetInCU: 0x8A5, offset: 0x5EAD9, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK13PromptFactoryV0C5ErrorOs0E0AAsAFP19_getEmbeddedNSErroryXlSgyFTW', symObjAddr: 0xC, symBinAddr: 0xE230, symSize: 0x4 }
   - { offsetInCU: 0x2B, offset: 0x5ECE7, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK21InputFieldStateHelperC05inputdE012MessagingAPI0cdE0Vvs', symObjAddr: 0x0, symBinAddr: 0xF40C, symSize: 0x1CC }
-  - { offsetInCU: 0x4F, offset: 0x5ED0B, size: 0x8, addend: 0x0, symName: '_$s12MessagingAPI15InputFieldStateV7ChatSDKE7initialACvpZ', symObjAddr: 0x3210, symBinAddr: 0x3B9F0, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0x5ED25, size: 0x8, addend: 0x0, symName: '_$s12MessagingAPI15InputFieldStateV7ChatSDKE8disabledACvpZ', symObjAddr: 0x3228, symBinAddr: 0x3BA08, symSize: 0x0 }
+  - { offsetInCU: 0x4F, offset: 0x5ED0B, size: 0x8, addend: 0x0, symName: '_$s12MessagingAPI15InputFieldStateV7ChatSDKE7initialACvpZ', symObjAddr: 0x31F8, symBinAddr: 0x3B9F0, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x5ED25, size: 0x8, addend: 0x0, symName: '_$s12MessagingAPI15InputFieldStateV7ChatSDKE8disabledACvpZ', symObjAddr: 0x3210, symBinAddr: 0x3BA08, symSize: 0x0 }
   - { offsetInCU: 0xAD, offset: 0x5ED69, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK21InputFieldStateHelperC05inputdE012MessagingAPI0cdE0Vvs', symObjAddr: 0x0, symBinAddr: 0xF40C, symSize: 0x1CC }
   - { offsetInCU: 0x10D, offset: 0x5EDC9, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK21InputFieldStateHelperC06updatecD07enabled24shouldShowAttachmentIcon12composerHint12keyboardType011textContentP0ySbSg_AJSSSgSo010UIKeyboardP0VSo06UITextrP0aSgtF', symObjAddr: 0x1CC, symBinAddr: 0xF5D8, symSize: 0x1C4 }
   - { offsetInCU: 0x1D8, offset: 0x5EE94, size: 0x8, addend: 0x0, symName: '_$s7ChatSDK21InputFieldStateHelperCfD', symObjAddr: 0x390, symBinAddr: 0xF79C, symSize: 0x64 }
