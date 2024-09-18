@@ -4787,658 +4787,658 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "Array",
-      "offset": 2101,
+      "offset": 2061,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 2137,
+      "offset": 2097,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 2196,
+      "offset": 2156,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 2299,
+      "offset": 2259,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 2656,
+      "offset": 2616,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 3533,
+      "offset": 3493,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 4515,
+      "offset": 4475,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 4583,
+      "offset": 4543,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 4666,
+      "offset": 4626,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 4734,
+      "offset": 4694,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 6452,
+      "offset": 6412,
       "length": 31,
       "value": "\"Chat message sent: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 6482,
+      "offset": 6442,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 6674,
+      "offset": 6634,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 6923,
+      "offset": 6883,
       "length": 35,
       "value": "\"Chat comment received: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 6957,
+      "offset": 6917,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 7021,
+      "offset": 6981,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 7743,
+      "offset": 7703,
       "length": 52,
       "value": "\"Failed to create File\/Image Query for log - \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 7794,
+      "offset": 7754,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "Array",
-      "offset": 7824,
+      "offset": 7784,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 8084,
+      "offset": 8044,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "Array",
-      "offset": 8116,
+      "offset": 8076,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 8220,
+      "offset": 8180,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "Array",
-      "offset": 8252,
+      "offset": 8212,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 8768,
+      "offset": 8728,
       "length": 27,
       "value": "\"!!! Untracked log: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 8794,
+      "offset": 8754,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "Array",
-      "offset": 8820,
+      "offset": 8780,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 10404,
+      "offset": 10413,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 11115,
+      "offset": 11124,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 11148,
+      "offset": 11157,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 860,
+      "offset": 820,
       "length": 10,
       "value": "\"ChatSDK.ChatEngine\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 12115,
+      "offset": 12124,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 13041,
+      "offset": 13050,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 13222,
+      "offset": 13231,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 13378,
+      "offset": 13387,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 13658,
+      "offset": 13667,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 13849,
+      "offset": 13858,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 14437,
+      "offset": 14446,
       "length": 24,
       "value": "\"Pre-chat form finished\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 15065,
+      "offset": 15074,
       "length": 11,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 15075,
+      "offset": 15084,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 15914,
+      "offset": 15923,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 16188,
+      "offset": 16197,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 16345,
+      "offset": 16354,
       "length": 14,
       "value": "\"Disconnected\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 16746,
+      "offset": 16755,
       "length": 39,
       "value": "\"Started listening to Chat observables\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 17222,
+      "offset": 17231,
       "length": 35,
       "value": "\"Chat ended notification received.\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 17381,
+      "offset": 17390,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 17493,
+      "offset": 17502,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 18571,
+      "offset": 18580,
       "length": 36,
       "value": "\"ChatEngine.observeConnectionStatus\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 18729,
+      "offset": 18738,
       "length": 59,
       "value": "\"Connection status update: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 18787,
+      "offset": 18796,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 19273,
+      "offset": 19282,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 20021,
+      "offset": 20030,
       "length": 29,
       "value": "\"ChatEngine.observeChatState\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 20345,
+      "offset": 20354,
       "length": 32,
       "value": "\"ChatEngine.observeChatSettings\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 20488,
+      "offset": 20497,
       "length": 52,
       "value": "\"Chat settings update: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 20539,
+      "offset": 20548,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 20888,
+      "offset": 20897,
       "length": 31,
       "value": "\"ChatEngine.observeVisitorInfo\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 21033,
+      "offset": 21042,
       "length": 37,
       "value": "\"Updated visitor info \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 21069,
+      "offset": 21078,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 21447,
+      "offset": 21456,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 21818,
+      "offset": 21827,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 21898,
+      "offset": 21907,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 22550,
+      "offset": 22559,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 22886,
+      "offset": 22895,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 23204,
+      "offset": 23213,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 23466,
+      "offset": 23475,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 23624,
+      "offset": 23633,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 23852,
+      "offset": 23861,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 23920,
+      "offset": 23929,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 24009,
+      "offset": 24018,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 24305,
+      "offset": 24314,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 25105,
+      "offset": 25114,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 25375,
+      "offset": 25384,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 25888,
+      "offset": 25897,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "Dictionary",
-      "offset": 26173,
+      "offset": 26182,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 26244,
+      "offset": 26253,
       "length": 8,
       "value": "\"rating\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 26523,
+      "offset": 26532,
       "length": 39,
       "value": "\"Action pressed: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 26561,
+      "offset": 26570,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 26862,
+      "offset": 26871,
       "length": 36,
       "value": "\"Resending log with id \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 26897,
+      "offset": 26906,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 27568,
+      "offset": 27577,
       "length": 56,
       "value": "\"Starting form \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 27619,
+      "offset": 27628,
       "length": 3,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 27623,
+      "offset": 27632,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 28253,
+      "offset": 28262,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 29447,
+      "offset": 29456,
       "length": 29,
       "value": "\"Set Visitor Info: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 29475,
+      "offset": 29484,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 30197,
+      "offset": 30206,
       "length": 64,
       "value": "\"Set department (\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 30234,
+      "offset": 30243,
       "length": 11,
       "value": "\"<cleared>\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 30246,
+      "offset": 30255,
       "length": 1,
       "value": "\") successfully\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 30322,
+      "offset": 30331,
       "length": 87,
       "value": "\"Failed to set department, starting chat anyway. Reason: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 30408,
+      "offset": 30417,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 30781,
+      "offset": 30790,
       "length": 62,
       "value": "\"Set department (\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 30816,
+      "offset": 30825,
       "length": 11,
       "value": "\"<cleared>\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 30828,
+      "offset": 30837,
       "length": 1,
       "value": "\") successfully\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 30904,
+      "offset": 30913,
       "length": 87,
       "value": "\"Failed to set department, starting chat anyway. Reason: \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/ChatSDK\/ChatSDK\/Source\/ChatEngine.swift",
       "kind": "StringLiteral",
-      "offset": 30990,
+      "offset": 30999,
       "length": 1,
       "value": "\"\""
     },
