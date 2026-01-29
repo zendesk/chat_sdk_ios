@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ZendeskChatSDK"
-  s.version      = "5.0.7"
+  s.version      = "5.0.8"
   s.summary      = "ZendeskChatSDK #{s.version.to_s}"
   s.homepage     = "https://developer.zendesk.com/documentation/classic-web-widget-sdks/"
   s.license      = {
@@ -23,5 +23,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/zendesk/chat_sdk_ios.git", :tag => s.version }
   s.vendored_frameworks = 'ChatSDK.xcframework'
   s.dependency 'ZendeskChatProvidersSDK', '~> 5.0.5'
-  s.dependency 'ZendeskMessagingSDK', '~> 6.2.0'
+  s.dependency 'ZendeskMessagingSDK', '~> 6.3.0'
 end
